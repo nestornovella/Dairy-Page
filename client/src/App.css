@@ -1,0 +1,12 @@
+body {
+    background: rgb(43, 46, 56);
+    background: linear-gradient(0deg, rgba(43, 46, 56, 1) 17%, rgba(43, 54, 59, 1) 24%, rgba(67, 71, 71, 1) 65%);
+    height: 100vh;
+}
+
+
+.categoryCard {
+
+
+    height: 70px;
+}
