@@ -52,7 +52,7 @@ function App() {
     <div>
       <div className="container">
         <Search callback={search}/>
-        <CategorySection newProducts={newProducts} lacteos={lacteos} perfumeria={perfumeria} />
+        <CategorySection current={category} newProducts={newProducts} lacteos={lacteos} perfumeria={perfumeria} />
         <ProductSection data={data} />
       </div>
     </div>

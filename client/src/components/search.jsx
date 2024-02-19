@@ -18,12 +18,13 @@ function Search({ callback }) {
 
     return (
         <div className="row d-flex justify-content-center mt-5 " >
+            <img style={{maxWidth:"500px"}} src="https://vendiendoofertas.files.wordpress.com/2016/07/logo-vendiendo-ofertas-fondo-transparente1.png" alt="" />
             <div className="col-sm-12 col-xl-9 bg-dark p-3 rounded-4">
-                <div class="form-group d-flex">
+                <div className="form-group d-flex">
                     <input ref={inputValue} type="text"
-                        class="form-control mx-2" name="" id="" aria-describedby="helpId" placeholder="" />
-                    <button onClick={() => setValue()} type="button" class="btn btn-outline-primary mx-2">buscar</button>
-                    <button onClick={() => cleanInput()} type="button" class="btn btn-outline-primary mx-2">🧹</button>
+                        className="form-control mx-2" name="" id="" aria-describedby="helpId" placeholder="" />
+                    <button onClick={() => setValue()} type="button" className="btn btn-outline-primary mx-2">buscar</button>
+                    <button onClick={() => cleanInput()} type="button" className="btn btn-outline-primary mx-2">🧹</button>
                 
                 </div>
             </div>

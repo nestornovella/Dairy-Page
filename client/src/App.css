@@ -26,6 +26,11 @@ body {
     height: 100px;
 }
 
+.active{
+    opacity: 0.7;
+    border: white solid 1px;
+   
+}
 
 .cardContainer{
     position: relative;
@@ -39,6 +44,10 @@ body {
     .btn-small{
         width: 40%;
     }
+    .categoryCard{
+        border-radius: 0;
+    }
+    
 
     
 }
