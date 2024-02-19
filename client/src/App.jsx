@@ -17,8 +17,10 @@ function App() {
   useEffect(()=>{
     if(category === 'lacteos'){
       setData(comestibles)
-    }else{
+    }else if(category === "perfumeria"){
       setData(noComestibles)
+    }else{
+      setData([...comestibles, ...noComestibles].filter(prod => prod.isNew))
     }
 
   },[category])
@@ -31,6 +33,9 @@ function App() {
     setCategory("perfumeria")
   }
 
+  function newProducts(){
+    setCategory("nuevos")
+  }
   function search(param){
     if(param){
       setData(() => [...comestibles, ...noComestibles].filter(prod => prod.name.toLowerCase().includes(param.toLowerCase())))
@@ -47,7 +52,7 @@ function App() {
     <div>
       <div className="container">
         <Search callback={search}/>
-        <CategorySection lacteos={lacteos} perfumeria={perfumeria} />
+        <CategorySection newProducts={newProducts} lacteos={lacteos} perfumeria={perfumeria} />
         <ProductSection data={data} />
       </div>
     </div>

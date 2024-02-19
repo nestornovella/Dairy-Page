@@ -16,6 +16,17 @@ body {
     z-index: 10;
 }
 
+.categoryCard{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    height: 100px;
+}
+
+
 .cardContainer{
     position: relative;
 }

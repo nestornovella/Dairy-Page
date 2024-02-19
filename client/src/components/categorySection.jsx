@@ -1,12 +1,21 @@
 import CategoryCard from "./categoryCard";
 
 
-function CategorySection({lacteos, perfumeria}) {
+function CategorySection({ newProducts, lacteos, perfumeria}) {
     return (  
-        <section className=" row mt-5 rounded-4 d-flex justify-content-around p-5">
-            <CategoryCard callBack={lacteos} title={"LACTEOS"}/>
-            <CategoryCard callBack={perfumeria} title={"PERFUMERIA"}/>
-        </section>
+        <div className="row mt-5 rounded-4 ">
+            {/* <CategoryCard callBack={lacteos} title={"LACTEOS"}/>
+            <CategoryCard callBack={perfumeria} title={"PERFUMERIA"}/> */}
+            <div className="col-xl-4">
+            <CategoryCard  callBack={lacteos} color={"#89cff0"} title={"LACTEOS"}/>
+            </div>
+            <div className="col-xl-4">
+            <CategoryCard callBack={perfumeria} color={"#86b6f4"} title={"PERFUMERIA"}/>
+            </div>
+            <div className="col-xl-4">
+            <CategoryCard callBack={newProducts} color={"#ff6961"} title={"NUEVOS"}/>
+            </div>
+        </div>
     );
 }
 
