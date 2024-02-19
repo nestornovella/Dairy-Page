@@ -3,7 +3,7 @@ import './../App.css';
 
 function ProductCard({price, weight, name, image, isNew}) {
     return (
-        <div className="col-xl-4 small col-sm-6 cardContainer" >
+        <div className="col-xl-4 small col-sm-12 cardContainer" >
             {isNew &&  <img className='newImage' src="https://www.desab.com.ar/wp-content/uploads/2020/11/producto-nuevo-png-1-300x297.png" alt="" />        }
             <div className="card mb-3 "  >
                 <div className="row g-0 d-flex align-items-center">
