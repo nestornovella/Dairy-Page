@@ -17,7 +17,7 @@ function Search({ callback }) {
 
 
     return (
-        <div className="row d-flex justify-content-center mt-5 " >
+        <div className="row d-flex justify-content-center mt-2 mb-0" >
             <img style={{maxWidth:"500px"}} src="https://vendiendoofertas.files.wordpress.com/2016/07/logo-vendiendo-ofertas-fondo-transparente1.png" alt="" />
             <div className="col-sm-12 col-xl-9 bg-dark p-3 rounded-4">
                 <div className="form-group d-flex">
