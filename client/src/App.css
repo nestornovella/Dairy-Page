@@ -4,12 +4,19 @@ body {
     min-height: 100vh;
 }
 
-
-
-
-
 .categoryCard {
     height: 70px;
+}
+
+.newImage{
+    position: absolute;
+    width: 100px;
+    top: 0;
+    z-index: 10;
+}
+
+.cardContainer{
+    position: relative;
 }
 
 

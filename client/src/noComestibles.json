@@ -5,54 +5,63 @@
         "name": "Desodorante Dove",
         "weight": "150 ml",
         "price": "$ 1200",
+        "isNew":false,
         "image": "https://perfumeriaburbujas.com.ar/wp-content/uploads/13209413-dove-aero-anti-x-89g-1.jpg"
     },
     {
         "name": "Deso Dove Man",
         "weight": "150 ml",
         "price": "$ 1200",
+        "isNew":false,
         "image": "https://clubdebeneficios.com/media/catalog/product/n/u/nuevas_hero_03.png?width=480&height=480&canvas=480,480&quality=80&fit=bounds"
     },
     {
         "name": "Deso Rexona",
         "weight": "150 ml",
         "price": "$ 1200",
+        "isNew":false,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXplnKjSespyYkAZeLdG0QU4DCKPoo2_4EXA&usqp=CAU"
     },
     {
         "name": "Deso Rexona Man",
         "weight": "150 ml",
         "price": "$ 1200",
+        "isNew":false,
         "image": "https://jumboargentina.vtexassets.com/arquivos/ids/802050-800-600?v=638375601994300000&width=800&height=600&aspect=true"
     },
     {
         "name": "Shampoo Pantene",
         "weight": "200 ml",
         "price": "$ 1400",
+        "isNew":false,
         "image": "https://pharmahorro.com/wp-content/uploads/2020/06/Pantene.jpg"
     },
     {
         "name": "Acond. Pantene",
         "weight": "200 ml",
         "price": "$ 1400",
+        "isNew":false,
         "image": "https://holamercado.cl/cdn/shop/products/Disenosintitulo_49.png?v=1624721715"
     },
     {
         "name": "shampoo Elvive",
         "weight": "200 ml",
         "price": "$ 1400",
+        "isNew":false,
         "image": "https://dcdn.mitiendanube.com/stores/001/220/411/products/shampoo-baby-yoda-781-c945f79daa6c87f3a016775378452133-640-0.png"
     },
     {
         "name": "Acond. Elvive",
         "weight": "200 ml",
         "price": "$ 1400",
+        "isNew":false,
         "image": "https://dcdn.mitiendanube.com/stores/001/220/411/products/shampoo-baby-yoda-791-0a0e7ccf9c312e731f16775445622867-640-0.png"
     },
     {
         "name": "head & Shoulders",
         "weight": "200 ml",
         "price": "$ 1400",
+        "isNew":false,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM1-S_FKGUQNCIhMFzAthX9fwswJhkt7iFi_hQCgMC4aBoqi77a_ZMEkyDOvyYqlg46Sw&usqp=CAU"
     },
     {
@@ -65,61 +74,92 @@
         "name": "Acond. dove",
         "weight": "200 ml",
         "price": "$ 1400",
+        "isNew":true,
         "image": "https://optimizacionglobal.cl/wp-content/uploads/2022/12/Acondicionador-DOVE-1000-%C3%97-1000-px.jpg"
     },
     {
         "name": "Shampoo Triatop",
-        "weight": "200 ml",
+        "weight": "165 ml",
         "price": "$ 1800",
+        "isNew":true,
         "image": "data:image/jpeg;base64,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"
     },
     {
         "name": "Shampoo Triatop",
         "weight": "200 ml",
         "price": "$ 1800",
+        "isNew":false,
         "image": "https://simplicityar.vtexassets.com/arquivos/ids/164705-800-auto?v=638219225948930000&width=800&height=auto&aspect=true"
     }
     ,
     {
-        "name": "Tres minutos",
+        "name": "Tres Minutos C",
         "weight": "200 ml",
-        "price": "$2300",
-        "image": "https://i.pinimg.com/originals/2f/f7/f0/2ff7f0ee07818029b9bd70a6e6d851e4.jpg"
+        "price": "$2500",
+        "isNew":false,
+        "image": "https://www.farmaciassanchezantoniolli.com.ar/10242-large_default/pantene-3m-micracle-colageno-170ml-aco.jpg"
+    },
+    {
+        "name": "Tres Minutos B",
+        "weight": "200 ml",
+        "price": "$2500",
+        "isNew":false,
+        "image": "https://simplicityar.vtexassets.com/arquivos/ids/157101-800-auto?v=638198472333100000&width=800&height=auto&aspect=true"
     },
     {
         "name": "Crema Nivea",
         "weight": "200 ml",
-        "price": "$ 1500",
+        "price": "$ 2000",
+        "isNew":false,
         "image": "https://arcordiezb2c.vteximg.com.br/arquivos/ids/178273/Crema-Nivea-B-Nut-Milk-E-Seca-x-250-Ml-CREMA-NIVEA-B-NUT-MILK-E-SECA-1-15391.jpg?v=638174505648800000"
     },
     {
         "name": "Nivea Lata",
         "weight": "150 ml",
-        "price": "$ 1500",
+        "price": "$ 2000",
+        "isNew":false,
         "image": "https://www.vassallo.com.ar/13621-large_default/crema-corporal-en-lata-nivea-creme-x-150-ml.jpg"
     },
     {
         "name": "Off Extra Dur.",
         "weight": "200 ml",
         "price": "$2500",
+        "isNew":false,
         "image": "https://http2.mlstatic.com/D_NQ_NP_695253-MLA52524112377_112022-O.webp"
     },
     {
         "name": "Skip",
         "weight": "500 ml",
         "price": "$3000",
+        "isNew":false,
         "image": "https://www.skip.com.ar/images/h0nadbhvm6m4/4p6zJSQisSPh13wT8u3y8P/3dfe38135a7d7b7e862b5f92655f8800/SmFib19uX0xpcXVpZG9fU2tpcF9CSU8tRU5aSU1BU19wYXJhX0RpbHVpci5wbmc/1080w-1080h/jab%C3%B3n-l%C3%ADquido-skip-fibercare-para-diluir-(rinde-3l).jpg"
     },
     {
         "name": "Skip R blanca",
         "weight": "500 ml",
         "price": "$4000",
+        "isNew":false,
         "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRYVFhYYGRgaGBYYGBgZGBwVFRoYHhQZHBkcGh4cIy4lHB4tHxYYJzgmKy8xNTU2GiQ7QDs0Py40NTQBDAwMEA8QHxISHzosJCU6MTQ2NDE0NDE2NDQ0NjQ9NDQ0NDQxNjQ2NDQ0NDQ0NDQ2NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABQcEBgECAwj/xABLEAACAQIDBAUFCwkFCQAAAAABAgADEQQSIQUGMUEHEyJRYTJxgZHRFBclUlNiobGy0vBCcnOCk6KzweEVIzOj4hYkNDVDVGOSwv/EABkBAQADAQEAAAAAAAAAAAAAAAACAwQBBf/EACgRAQACAgAGAgICAwEAAAAAAAABAgMREhMhMTJRBEEiYRRxM4GRBf/aAAwDAQACEQMRAD8AuaIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgdHcAXJsJ5jEqeFz5h7ZjbSbVB4n+XtnVTAyzX+a37vtnUYn5rfu+2eV9OfrnZBp/WB6NiAOIb6P5GdRjE4Zree4+nhMR+P8AWYVU3Bv4wNiiY+Ca9ND81fqmRAREQEREBERAREQEREBERAREQEREBERAREQOIiYm0MYtGm1RzZVFz7B43iImZ1DkzERuUbt3HpTK5mCi2lzqSTaw79bTBO3KQtdz/wCrH+U0/au+VesSBZUvouUE28SdZJ7D2q1QBCRY6eSNCRofXabo+FaK8VnnX/8ARpvhrE9U6+8VE6Av6EadDvJSUWOcHuyNIw45lbMx0VWYAd4FrfvX9E1R9qVWa+dtT3ydfhRbfXshP/oTXXTu3c7fRjozekETzG1FNzmNhxJuAPXInZVZy6i5IJF76iZmKrMjsoCGzELdddDobj8aSqfix2iV/wDLmOsw3XY9XPRRgQRYgEdwJA+qZ00zCb2lGVa6gKTYOo0HnHd5pt6OCAQQQRcW1BHhM18dqeTVjy1yeMvWIiQWEREBERAREQEREBERAREQEREBERAREQOs0bpKrsVp0l4G7N9S/wD1N6mp7w0BUrAAXZQo14W1I9PHSX/G1zImfpm+VvlTEd5VnUwhUAEG8ztnlkICg3uCfCxvNsxeHVRZgSe8BV9V72mPSamFyWtxsTrxNzqJ7EZtx2eDbBMTqZRGLxGe6k6nh5/wZDLhmVjysbeHr4GStWkA5a/PS/f7IK6AA8uPeS2v1SyY1HRTW35anuk9jYnLy4C/hee72Y6nW9785GYZSDbvBE7tUItM01/LbfzPx0z8RTQ9kkG/LifomXu1tg0HFB2zU3ayMfyWPBT4E/WPGR1w2o9PnkZtfEqRlIs35LW7u/wnLYoyV4ZcrmtS3FVcMSG3W2l7ow1OoTdrZW/OGhPp0PpkzPHtE1tMT9PdpaLVi0fbmIicSIiICIiAiIgIiICIiAiIgIiICIiBxIbaThWZvyjYA9wsJMzXN4X7VvN9Utw13eIUZ51TbW8fWJJMiWr6zNxT3kU6NfTvns008LNvvDN2gl6aP45T6ridMJRL2C8Rw/HqmVtFlXCopIuXHqAN/rEyt3VRrZWBI4jn6onJMY5n1tGMXFmiP1AqZVsVsRrdtINDMdDe9iO4gjkD4zYGchivKw9cx3w+Yj4y8D4d0x1zb7t9sX1CNw2x2BzAGx4jlPHaeyARqJtKVCFFxrw9MjsbiUXRjc+oe0xXLabFsNYqx+jxinX0TwDK6+m6n7Kzd5pW7bIMX2dM1JgRe4NmUg/QfXN0mT5P+SZ9t3xemKI9O0REoaSIiAiIgIiICIiAiIgIiICIiAiIgcTVtvODVZb6gD7M2mV5vlXKYq4+Iv1S7BOrqM9eKmmHjKJvwnlRKqMzc9ALTIpVQ4Bv6jb6pq23cU4crqAv06/1np1/J5V44ZiPZtvHFnspsqDKo5eJPif5CYFDG1EYOhsw5jQj6ZiJUzc5J4fCCwZiMtxx89vVeWRM6/SOSlaa31mfTdF3uHVpmQhyO2bXW/eB4jXwvMPEbbLdtHuRrYG3rEhcLSDlgWAkXi7BiL8DxE5GPHWekKuZmya399m+4bbjMo7VxY28L8fTpIfH1zfU8ZrOAx7ISL3U8Rzk0SHQ2Oo1H029npkYrWOy2Zv42TG6FQ+7aWvFKg/dloyq9zF/3umb8AR6Sp9ktSef8vz/ANPT+F/j/wBy5iImVrIiICIiAiIgIiICIiAiIgIiICIiBxK/3vp5sSR8wfVLAlZ7zYxxtN6dxk9zq9jya9tD6pZi8kMni1zE43qD2TmPMXsno9sysDsXEY4Z0TIh/LfRT5u+RmxcJ7rx1Og3kXZ6mv5Ci5HpOVf1pb21dt4bBqgquEB7KKqliQLeSqgmwuNfGacmecfSv/WfH8bnTG43+oaB71r8euUHwv8AdnZOjirawxIIB77i4I+b4TYtu7w0MRgMU+Gq3KqL2zI63YcjYgHXXzzw3AxtOjs4VKjhEV6l2PDV9BpqTc8BM38m/bbf/Ary+OY6xMRrXXsix0c1fll+n7s6N0bOf+sPX/pk3vRjFr0aFajjvc6ZmOYhkNS1hdV0LWsdLEHNJraW8WFw5C1aoDFQ2UKzNlI0JCjS/jE57z3lGPiRERw16zvpEdtNHPRk/wAsPX/pmBtvZbYJqSO4bOrkW+YVGug+MJZeyNu4fEZhRqBiurKQUYDvysAbePCaD0um1bCa27Fb7VOTw5bcUdWfPgjhmJjUvDdHHp7soUwGzs1z8UAJU+m8t+UTuLVzbToD4ob0kqZe05nnd9mCsVrqHMREpXEREBERAREQEREBERAREQEREBERA4lSb7G21QTwNFAb8LZ19stuVPvyt9pr+jX7aSzF5IX7I7o6U/2tUNjbJiAPi/4icO7zTZt+tj1XxNCvhnQ16a3FBmUOyqxYMqk6jUg8OAtPLcegnuhWUDycQGYC3b605h4a8pO7xbpLiaqV0rNRroAFdRmFgSRcXGozHgeBsbzmbrPRf8S8UtuZ13+tw0yltSlWw+0M1AUcUaYarYnK2VwCQpPYOY6jne95AYbEnJhUxAPuQVHaym2Y5wHJ7ytxpxsxtxvLIwe4iLTxAeuz1a65XqlQCAWDGy35kC9zyE9v9h6RwYwjOxs5dalgGVidbDha1x6ZTwy9anzMFNx11M/86a3H9NZ6V8mTB5MuTJVyZbZctqdsttLWtGNPwzhx3rR/hGTeK3AFSjRotiXIomplOUXyvl7PmBU289uU1vebCF9r0qS1GpkrSVai+UCENiNfCcne9/0YcmO1IxxPaL7nXuekvWmBT2/lpaAscyjQWbDZ3Fu7N2vPPLpnB6/Bn5lf7VObhu1ugmFqPiKlVq1Zgb1H0AB1YgXOptqSeA5azSd79qLjMWer7VOkvVhhwY3Jdh4XsL/MvNHx6TNtPJ+dmrqJjrqIjftE9Htv7RofrD9xz/KX1Pn/AKNl+EqXOxb1dW4n0BO5vJRj7OYiJUmREQEREBERAREQEREBERAREQEREDiVPv0PhIfok1/XWWxKn35PwmB/46X01B7JZi8kL9mn7H3lqYHF13W7KXrA0yezcvo3nFrXmze+5V+RX8emV1tQf31X9JU4cPLbhMQTVOOtusqIvaOkLP8Afdq/Ir+PTHvu1fkV/Hpmpttii7sxRUAfVRSVzVohiQhvojakX00K69gX9sLtLDXU9UAQBmORSuZgGqG3zXRFX5rtw4GHLr6T4re2z++5V+RT8frTB98cdaa/uWkatgM5W7gAWABJ7PokFjqtN0RAgJVw7MFC51z1SVB4jRkBve9hwy6+bFADftE5rN1arlvbIbc8tjpwObwiMdJ7wcy9e0s/bvSFi8QMlwiHiim2YdxItp65ELttgjIihA3lG92t3DuEwMe4LmwAGtrALpmJ1txOsx0MtrWKx+Ku35eTc+i7/j09P2Wl+z596MW+EKPiW+w8+gplzeS/H4uYiJSsIiICIiAiIgIiICIiAiIgIiICIiBxKi39a21F/R4f+K3sluyn+kIX2moGl6eHF9L61X79Jbh8kMnZXW1FPX1QBr1tQAc752sJce73Rrgkooa6ddUI7bFnVA3NUCkaA6XOpt6JTe02Ir1DftCq5v8AODnX1y4909/8K9O1aqlJrlirkqVZiWcAkZWTMWKkG4BAKi1zdm4uGOFXj1udszam5WzqVMuMGrEFBl6xx5TqpJOY2AzX9EwKWwdnZaZGCIZmAdA9VjTWw7TdwuycbaEnlJTau9OCqBQmPooQ1yRVK9kgg6LbMddNRY2OtrGPrbZwz5mO1ERiEACVmyKRUYsbXF7qVHLh3SmOP72s1Dphtk4MjXAZWC3KmpVuWyK+RDbtk59OGg77gS2z908DUUk4ZRZiLq9RlYZQbqSQSO1bhxBkU216BUj+00W/WC/Xsxs5AtyylVzWI4GxFuEz8NvBggxL49CLkjLXcZjnLAsL2WwIXKNDbzAcmLfs3DE3k6P8EaTMlLJlUksjOXUDUsoJIaw1yEdq1gQdZSuNwrUaj0ntmR3RrcLqxBI8Da4l9bY3+2fTpseuWqSCBTp3ZmuOFxovnJEoXaGLarUqVX8qo7uQOALMTYeAvb0S7Dxddq8nD9Nl6Mz8I4f85/4bz6Fnzt0aN8JYbxZ/4NSfRMrzeSeLxcxESlYREQEREBERAREQEREBERAREQEREBKc6QG+FF46Jh+HH/EY6eOsuOU1v5/zXiB2MPqeA7fPUaS3D5IX7K72mP72rb5R/tmYpmfi6LvVq5EZu298qlrds9151w2zajvkClWtc5wVAHLNcaAnQE8zNu4iGbU7YM9UvJg7tuoDF0sc9soZr5XygkgdlDxznQAi/GdxsZ1YoSpsASy3YZS7qG810PG3Ec5GbQlESh2JnAMnn3eqXtdbWY3IdR2Wy815m9u8AmY2K2O9NSxYEC2lmHHLobiwftDsHW1zwnYmHJiUSykkAcSQB5ydJO4bY9NUzvVVfKtYB3urANZDYLz7TXGqm6zP3LwWbGUFVM9QHPrbKiZdGbMdSMwa1jy58Ne2wjq5BJykmwtl4d4HE2K2PNSp5yEzudQlEajbYtyGQ7Ww5S+XNU4m5v1NTnz0tr9fGfQAnzr0aj4Twv51T+BUn0VM+eNWj+luPs5iIlKwiIgIiICIiAiIgIiICIiAiIgIiICU7v8AC21VNr3p4c27/wC8b2S4pUXSGQu1KBOl0w59VZ5Zi8kb9mq7ByGviA+qmp2hobjNUN7NYE3sddL24T0xOz+vxFVaVMVAlEsAWQFV65vjaXN7X4gNcT03QwFSvi8StPEe5/KYuNcx6whVANuJP0cDMHGUsU1eqhFSpUsmch0OZVYMma6W4oDbw5iauvF0UdJjTLq7JKrVc4IAU8jOboGAdUZbINGsLiw5gg6lhCbP7dSiMMvWU1S+ZqaDO11QglsrF2qJ2R4d08ji9oEFj17ZW1LPTc5kYvbtIc2VjmA1tpblJB8Fi0z1hiM7LSF3L53ZEJdMrPRuTdHKve/YBvYrHFb705wR+2M+AGdFbCAMyq4AdF7D4hEQnxzuiW00Zp02rsxkoiocOEVnRQ4ZCbstwbKbjNY9kaCZOJp46kEztZwQiAvh2sgAcdspyZFYKdQQrCxF5EbRrYjIq1HJRWSwNSm9suikBVB4MRcHnre07Fpn7g4ax7b1uVu8HxlWr209zsmRhbtM63cNcarlJW3IGRXS1sGlhzTqUwwNV3ZgWuAQqiyX8lbAaeAm1bbZ0egwYhHpqCFeopDrh3YF7dhb5VUKQS9zqMomt9KNMDCYFgzNnLuczZiGemjEAnlrwmeszN4lbMRwy13ovW+08N4daf8AIefQ8+fOikfCdD82sf8AJafQcjm8ncfi5iIlSwiIgIiICIiAiIgIiICIiAiIgIiIHEqnph2fVV6GMpqxVAUdlF8hVs6M3cNW1OmgHMS1pwRfjJVtwztyY3Gny1htqulRqqlSzZs1wCpDG7Ajhbwnjjcc1R2qOe01r20GigfUBPo7Gbn4CqSXwlEk8SKYRj5ytiZGP0Z7LOvuYjzVqwHqz2mjnx6Vcqe23z91nifXM+pt3EMCGruQwKkZtCpCgi3dZFFvDxMu49F2y/kG/bVfvTj3rdmfIv8Atqv3o51fRyp9qPrbbxD+VWqGxuO2Qb2txHhPCrj6jghqjsDxDOzDThoTL3963ZnyL/tqv3pz71uzPkW/bVfvRzq+jlT7U4292JLI56ouiBFc0kLhApUDMRfgzD9Y98j8bth6iJTIRURmZURFRQzABjZRxIUeqXqvRhsv/tyfPWrfyeZ2E3E2bTtlwlI24Zwav2yZHm1jtDvBP3KuOhnYzvXbFlSKSKyIxGju1gcveFUNc97Dxl2TpTphQAoAA0AAsAO4AcJ3lNrcU7WVjUacxESLpERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERA//2Q=="
     },
     {
         "name": "Skip R Perfumada",
         "weight": "500 ml",
         "price": "$4000",
+        "isNew":false,
         "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVEhcWFRYYGBgZGhYeGRwYGBUWGhoZGBQZGhwUGhgcIS4lHB8tHxgcJzonKy8/NTU1GiQ7QDs3Py40NTEBDAwMEA8QHxISHzosJSw0NDE0NDQ0NDQ0NjQ0NDU0NjQ0NDQ1NjQ0NDQ0NDQ0NDQ0NDQ0PjQ0NDQ0NDQ0ND00NP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABgcEBQECAwj/xABJEAACAQIEAQgFBgoJBQEAAAABAgADEQQSITEFBgcTIkFRYXEygZGh0SNCUlOxwRQWJDRykrKz0vAVM2Jjc3SCk8JDg6LD4fH/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQIDBAX/xAApEQEBAAIBAgYCAQUBAAAAAAAAAQIRAxIhBBMxMkFRYXEiFJGhwdGB/9oADAMBAAIRAxEAPwC5oiICIiAiIgIiICIiAnBM1S1ixJJNuwdlvKeqBR80HzAgZxqDvHtEdIv0h7RMRwLeivsHwhaYt6K+wfCBlhh3id5rKh/sr7B8JjObHQkeRI+yBvImBwzEFgQxuVO/eDtfx3mfAREQEREBERAREQEREBERAREQEREBERAREQE6sbAmdp4YsEowFr5Ta5sL27T2QNThnAEyUe8rni3KyvRqFAlMle0N0g8sykC/hvNf+POL7Fpj/Q33tNceDPKbkdGPhuTKbkWw9UC05FYW2+yVG/LXGHtT9QTj8dcbtmT9T/7Lf02a39Hy/halSssxXxC39v2ysjyxxXbkP+g/Gd05X1/nIh8gw++L4fNF8Jy/X+Vr8FcEvr9H75tpFeRdd6qdMwUKy2FmDG4OoIG1rbHWSqY2auq57LLquYnE5kIIiICIiAiIgIiICIiAiIgIiICIiAiIgdTKV5aco2xVZlRj0KmyqD1Wt89h2k7i+wt4yzeWeO6HA1mBsSoUebsEuPUSfVKSpC9zOnw+Et3Xd4PimW8qxiLTmegIBJPdp5znBt1we659gvO3LLpj0rdR4mdhN1hqPSqxbW1jrr7CdprcTQCk5TceO4mGPNLdVjOTd08BR7Z6LRB/+T3oYZnFxYKO0mwv3ePqnsmEZVvcEd63+8Ay15Md633W6p6bdcL01I56FZ0YdzEX8D2EeB0lm8ieWQxXyNayV1HktQDdlHY3ePWO0CugLCYmJRrh0JV1IKsuhBBuCCJTkwmUZcvDjnPy+hYkW5D8pfwyh17CtTsKg2vf0agHcbH1g+ElM4rNXVeTljcbquYiJCCIiAiIgIiICIiAiIgIiICIiAiIgQfnUcjBoB86sg9iOftAlcU+G1RTByEX17L+zeWfzjVQmHpsRtVFvM06msrNuKM+gO83wzyxx1HpeGyynH/Fr3wbm+2n87TEuysQRY2PvXeb/iGVLBnKtYH0bjXvN5p673FjY2PVYajxU90tjyXL3NZnb6svgOPChgxnlROdyToupY/2f5+2a7C4e53trYWFyZJsBwsqvX9AG7eLAXCW7LdvibdkpnZjUZ6x3YwarsAM3UXZFB1ynYnu+2KDFRYGdOMNnJI7IovcA94kY1jjm2eHQHU7TOfKqFjYDsmtw76Tri3JFmJt2D75e231a6uXd78l+LdBxBKl7JUbI/dlcgBj5NlPqMvET5zqUutk8vf/ACJffAMYa2Fo1D6TU0LfpZQGH615nnHJ4rGSyxsoiJm5SIiAiIgIiICIiAiIgIiICIiAiIgQbnW/M6f+Mv7qpKs4Quaqq/zqbS0udj8yT/GX93Ule8meGVHdauQimuuZrKDbYLf0tQNprjZMXdwcsx47ixeVr2rtbb+RI7+EEag/z4yV8o8I9w7LpsTuPaJHGwdzcaScc5pvhnj0yN7hsCHa6jVcoy9jNsFHmezzksxNEUMPkbU26/fmbUt7ZjcGwuVwWX0czn9Ikoo9Qu3rmRxjFrUfIfpWB8+wzC59TnzytukVdNbdh2nhQGUle7UeROvv+2bRsLqQNr9X1nb3TxGELuuXe+vl2y0yZ76cmTgaWhZvRGw72tt5d84xNFj1gDfcHx75tMTSANlFlFgvsAPrvPZMPmYA7Df4S3X8umZ6m2gwmFvUR21vf1m9y1vXb1S0eQFW+CC/QqVV9rl/saQOmtxmAsFzAe1vukw5tKl6Fcd1dvfTT4SLdsOe7iZxESrkIiICIiAiIgIiICIiAiIgIiICIiBDOcxkGFplxmUVVOX6R6OpZT4fCQDF8RdKYZ1Od8tgSV6NBsioNADobeAlkcvqyphQzAaPppexyOLjx39sqTjdU1mzpcg2DLuUbut3HsMti6eLXSkHDsUHWxsbjUHZh3ETW8R4Pku6XydoOpT4juM1vDqrIbG4I7Dcbdkl+BxgcWa17W8wdwR2iRnjrvE38Mui1luO0L7tvcZg4umC5JHj7tPum4TC2C2GhAHlbSxnTiWDtYj+dBOWWxG2kTBhrBbg7Cx7ToPvmVh8C6VNbONCTsbjf1X19cyuGUrOT3aDzN9fYD7ZsnpgMF7TmJ8tIuV12Rb3R9Ki9IQ+ZQbkaC+bsHdv2za4DBvUO1gB6h4zHxGFFSpbskgT5OjkSw8W+09reXvlsbZNJuSJ8UqKlPKpt1tSdrW27yddpIOa8AUqwBY9cE5gQbkuNiNPRkV5QcWp0lyp13165Avrvl+iPL33kg5pMQXTEMRa5pmwvYZmqm2uvbN56KZ3cWNERDEiIgIiICIiAiIgIiICIiAiIgIiIEG512IwS27aqg+XR1PhKqrU2SoGVgD4MAw8wbaGWxzoMBhKebbpl8P+nU8DIg2Cwj1CahI0GwY/ZaWmUk1XTx3+Omp4XhauIqhFTO7ak2I82Y7euWDw/kMFANSoc3cnZ/qPwmz5G8Ko0qJqU1t0hvc75VNlF7nuJ37Z4Y/l7gqVRkLsxQ2YohZVN7WLbHXTSVtkU1nyZWYy39O2K4LSo081TE1EQdrVFVfK5G84w3A6VamrpiKrowurZhYja+q+E0HOPxCliMBQq0WDoawsRcbU6lwQdQR3Gbzk7xOlh+E0KtZsqhAL2JJJYgAAakyvbbS+Hs4Zl33brT2HJSmuoq1R45l8u7x989DybS+tWtfa+Zdu7aavlU2Fx2CRziOgp5yUZ0azkAggIxUt22t3GbGhxrC4bCYcmszKyKKZKsXcKoGbLa47N9riOynk5dMs3vdmtf7cryXpjUVaoPgy/CdMRyZQglqtVtDuy93lOmG5c4N2C52Qk2BZSFv3FhcL65I6vot5H7Imr6M8sM8LrKWPnrGLfX+fO8sTmb/q8R/2vcagkPxeES11LeRXw7bb+2TfmkTLSra7lNxb51WTPTuvn7VixESWJERAREQEREBERAREQEREBERAREQIry8wQq0EU7CoG87U6gt75D+LcJLlQoF1zX7zfJa+nZ8ZOeWVRloKV3zf8GkE43jnQhgCM2cEnY5cmwvpv75Wy3bfj3qa+1i8naVsHRU9lNR7pVS4fE8KestSgtfD1eq7G+V1BIHXF8jdYizDf1GWjycOfA0dT1qS6g66ruD3yCU+SnE8PTr4eiaVWhWzAl2IIDCxYA7Eje19u+RZezo8JnMblLZq63L2+fi/FjB5QVcK3CKJwqlE/CesrEsyv0T3DEk30y2PdaanD4zpHwlHF5lw6BbAaAqxb5QnuJ0JGwBtrJZX5AVxw5aCOhqmt0rkswQfJsmVTa5tpuO0zK4nyHergKFMZBiKIte5yMCxJUm1+2407++V1fp38fieDHHp3vdvf5m56unOsirhsOqgBQ9lAsAAKZAAA7LSM8qmtguHH+4qf+uSPiHJPHVsDRoOaRei5ytnbWnlsoJybjbyAmj5wcE9DDYCk9syU6qnKbi46LYycvmo8Nlh/Djllst/tq92x5ysMoweEqAANolwLXQ0s1j3gFfee+THktVZ+G0SxJY0Rqdz1TYn1ASF1uTHEcd0C4hqaUUUZSh1sVHWCjdrADWwH2zvjFdMJgmC2UKgSmCQOtlyqLn2+oy2M77cHiMsZxzjl3d29vhTFfDFVuCSANcpVreO+3jaWLzVVc1Gp4FddNsznW0r56eSxzoLd7r7N5P+avL0dcIbi6G9rbmpoL91pexhyXssGIiQwIiICIiAiIgIiICIiAiIgIiICIiBB+dWoVwSWNvllGn+HUlWcrKhNOhc361fz3TU6+Pulo87H5nT/wAdP3dSVbyqJ6HD92bEW1v85L6W0nTwzsx5Le6zeSPKzCUsBhkeqodKSKwuuhC6jebn8d8D9cPavxnz5w3B9NVSnfLmza2BtlVmOhI7F7xM9+BKHVOmUu9+jCrmVraWZw1lOcMmmbVTcgaxlw4770nJdei9fx3wP1o9q/GcfjvgfrR/4/GUgvJh8yguoDOVvYmwNZKSMR/bLEjwUzq/AbUnqioLIWGqoASqU2y3V2Fz0qgAXuRraR5WP2nry+l4fjvgfrR7V+Mi/K3FYDHVKJfFZFphwQoUs2cpsxaw9HuMq2hwvOVAcZiqMwKnRXKi4N7GxZe7eedTh1iLNcEVDsP+mmc7EjXbeLw43tavhzcnHerHtf8Aq7MTzg4HD0wqOXyAKACpPVFhfLc9ndKn5X8ra2PqAt1aa3yoNhf5x8Zrl4WSubMAPk76HQ1FQoPH0iPDL4iYmLoBHKg5rdvVH7LMPfNMePHGs8ssrN10S4l0czh/J6h/Q/bqymLy5OZhvyeqO7J+1VleaTp2jjt2suIicrciIgIiICIiAiIgIiICIiAiIgIiIEE52vzOl/mE/d1JVnKa3Q4c2F82Iue30ksDLR53fzKl/mKX7FSVbygv+DYY30zYmw006ya+v7p1cPtn7YcnrWgwzOHGTNnNwMoJY5lKkADe4JE2tHA49EyLTqhDm0yajOLMFYi6XGhsRftkj5vcMgRnsC7lwD2qiZLgd1y4v5CTMUmIJCkgb2BNvP2GWzz7tuLgmWO7VVrhceCDkrb0j6JOtAWp7/RG0yEwOMa4am4BDAgU1QWcIGGVVA1yJ+qJbIC3VShuEFxkW4bqjP3kXB3327YLLfrIVtlPo7qAQxO2lyPO2plLn+F5wYz5qr6fDMUAoFOoMtrdT6O19NbeM7f0Ziuym+99KYGtgDbq6AgajYy1VZQLMhva98ire25t2C3dbaemZSbZGPcMgBVSVIA7yBc37b+Mr1HlT7qm8Tw3GXuKdW+uy23sNtvmr+qO4TRY0OHIqKVcbhkCH2WHtl34pDdjlIW/aLWvqB7JCeWvD16Fnt6IDL/ZOdEZF7lYPfLtdL9pmmOXdHJw6xtlQG+kuLmUPyNfzp/bUlNgy4uZI/JYjzpf+yOb2ubj9y0YiJyOgiIgIiICIiAiIgIiICIiAiIgIiIED53vzKl/mKf7DyqOOJbD4c/SOI7+x0F/u9UtTnfP5HRHfiU/d1DKp42B+D4fvvXvv9NLW8N9p18Ptn7Ycnrf08uT/GzhmsQShbN1bZla1swB0YFdCp30IIIBk1w/L3DKvz73BuaZ0YAi4s1vnHe8rGdTNMsJaYc+WM1FpvzgYYsW64JWxsjfSvfVj3T1HODhz9Lax+TOq63Xftv56CVOJ7IDK3jxXniMr8Raw5wMONQDc3v1Cb5iCw1bYkdkNzg4YjKQxHcUbbSwuGvut/bKrJnETixR5+X4WhX5fYYoVs+XTZO0BQGuWveygd0h3KflN+EqKaKVpg3Oa2ZyNrgbAb2+E0DbTO4RwzpmUEqMxIXMSqnKLm5GuwNhpfK2otHTjj3LzZZTpawKddDpv4ect/mPPyeJ/SpfY8guMp4aktg7VMyACxRKYJsWKKoOc9lwSNTdydpzzHf1eK/TpfsvKcl3hVcJrJasRE5W5ERAREQEREBERAREQEREBERAREQK854/zTD/AOZT91UlX8eHyGG8en7/AKwaa6ezvlp88A/I6J7sTT/d1JVXKC34Ph7H6+++hzrp7LTq4vbP2wz9a0cyMPw6pUUsi3Az31A9DJm38HB8gT2GT6tw5DTdyKfpFcpQba2ygsezY21IbutIpgMQopopxDp1WuordGA2cgplyGy5GLZje5OXy069zsicfd4Dk9XVyjBA4IGUuoJBy9cX+aCygk9/gbdqPDnLZCtiMoIO4L02qAEb3yqdO/SZtTE0yGy4p3Yi+VnCXYKlzcqcq2tp2mnbsBns9Sgue2JclrXu6E1FRFRRmymzWdgL9gPrjdW6NNe/BqpYAKpzEgZXQjMM11vfcZG9k6Hg1Udib5fTTV9fkxrq+h0+Im2fFU2Ati3Bs46zhusrno9VW+pYsT3ZtReKmIp9b8pcnKRbpAdLPZh1esxNhlFiOkbXUyZlVbhGhw1BWuznKg9Ije5ByqNDqSO7YEyR8oaBTB4PIoRTTqFVdFDPkqMXqHMtywzKwOlwxIGkwcPw7pKVFQdatSoiDUWewAZtNVGX3mWjxPkjiK+EoI1VVrUcgZ7GqKiUxcC7AMpJ3sRmHpX0ApnlJZtOOPZRLuSbkkk7km5Prlvcxw+TxX6dL9lpUmJphXdRsrMB5BiJb3MePkMSf7xP2D8Y5fYYe5aURE5G5ERAREQEREBERAREQEREBERAREQILztJfAoe6vTP/g4++VLx8D8GwveRXvt9YLH/APe6W9zrqf6NZh8ypSY/rZf+UpjieKV6FBA1ynTAixGUM6ka7G+s6uD0/wDWPLUhxnE0FC5wjUy6sUqGrSysxB+UW4GbrdbQ73mPwjlOaFOghpI4oI5QNVQA1WrVjn1YqqhK7DRblgtzYC234vyopYjh6I/RFkp9RSzZlfo8gGW9mtfc63A07ZCVxdDo8pwwL5SM/SuDe1swW1r31sb+zSWk3LLPlOfazVnolH4z0QtJEoHJQfPSU1qRGZemyA3YhMpqIbqLtk617CeHDePU6VXEOiMqValJwiVqAU5M7Ph6hJN6TM5FreiBpeajCcTw6VKbLh1psjU2D9JWqBWRwxcpcZgbeiCPAyQYrlThGpOiioc3SWzqGJV+qEZy1zdvlSfpeOsWa7aV6t/LpiON0aiLnpuAKb0XKPh8oWrQVMwJb081K4B3Gae2J5Xq9Oqgp26Ray36WmcodsUykqGAe3TqCGFuqSLEKZh8V47gXQLSohR0yOyrRpoGRKFZdVBCkh6t9ew+AE1tTiuFIYCjYkG3ydIWPqN7RMZ9Fv5TLkqlJOG0MU6qz0cTUCBmYAlrWsqgl2BGijvMnXCOO1a9RVVaTLlR3KMzWp1M4R1JsDdkYEbrl7b6V1yQ5UU6HDGol0FQ1Gur1KlElG9IrVQFka1rNaZvAOU9LC1UPTYdkNGjTqWaoHXo6ld+oMln0qgZmIuQSd5jlju1eXtFZY/+tf8ATf8AaMt7mQH5NiD/AHq+6mvxlP4yoGqOw2LMR5EmxlzcydIjBVmOzVzbxy0qY+2805fYrx+5ZMRE5WxERAREQEREBERAREQEREBERAREQMDjHDkxFCpQqXy1FKm24vsw8QbEeUpDi/NlxCix6NFxCdjIyo1u8o5Fj4AmX7EvhncfRXLGX1fMGI5M49DZsHifVSdx7UBExW4TiRvhq486NUf8Z9UxL+ffpXysXymeG4j6it/tVP4Zx/R+I+orf7VT+GfVsSfPv0eVi+Uv6PxH1Fb/AGqn8MDh2I+orf7VT+GfVsR59+jysXymOF4k7Yev/tVP4Z7UuT+Nb0cJiT/2KtvbltPqaJHn36PLj534TzbcRrMA1LoVuLtVZRYdpCKSxPhYecvXk9weng8NToU75UGpO7MTdmPiSSZs4lMs7l6rSSejmIiUWIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICcTmICIiAiIgIiICIiAiIgf/2Q=="
+    },
+    {
+        "name": "Pantene Volumen",
+        "weight": "110 ml",
+        "price": "$7000",
+        "isNew":true,
+        "image": "https://farmaciazentner.com.ar/wp-content/uploads/2023/05/7500435188098.png"
+    },
+    {
+        "name": "Isue Saloon IR",
+        "weight": "110 ml",
+        "price": "$3000",
+        "isNew":true,
+        "image": "https://tekielar.vtexassets.com/arquivos/ids/171372/8114104.jpg?v=637975142939930000"
     }
 ]

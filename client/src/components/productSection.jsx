@@ -9,7 +9,7 @@ function ProductSection({data}) {
     return ( 
         <section className="row d-flex rounded-4 my-5 p-3 d-flex justify-content-center">
            {data && data.map(prod => {
-            return <ProductCard image={prod.image} name={prod.name} price={prod.price} weight={prod.weight}/>
+            return <ProductCard isNew={prod.isNew} image={prod.image} name={prod.name} price={prod.price} weight={prod.weight}/>
            })}
         </section>
      );
