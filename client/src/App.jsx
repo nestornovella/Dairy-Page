@@ -12,7 +12,7 @@ import noComestibles from"./noComestibles.json"
 function App() {
   const [data, setData]= useState([])
   const [category, setCategory]= useState("lacteos")
-
+  
 
   useEffect(()=>{
     if(category === 'lacteos'){
@@ -31,10 +31,22 @@ function App() {
     setCategory("perfumeria")
   }
 
+  function search(param){
+    if(param){
+      setData(() => [...comestibles, ...noComestibles].filter(prod => prod.name.toLowerCase().includes(param.toLowerCase())))
+    }else{
+      if(category === 'lacteos'){
+        setData(comestibles)
+      }else{
+        setData(noComestibles)
+      }
+    }
+  }
+
   return (
     <div>
       <div className="container">
-        <Search />
+        <Search callback={search}/>
         <CategorySection lacteos={lacteos} perfumeria={perfumeria} />
         <ProductSection data={data} />
       </div>
