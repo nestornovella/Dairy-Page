@@ -3,8 +3,8 @@ import './../App.css';
 
 function ProductCard({price, weight, name, image}) {
     return (
-        <div className="col-xl-4 small col-sm-12" >
-            <div className="card mb-3 "  style={{ "max-width": "450px", "min-height":"250px" }}>
+        <div className="col-xl-4 small col-sm-6" >
+            <div className="card mb-3 "  style={{  "min-height":"250px" }}>
                 <div className="row g-0 d-flex align-items-center">
                     <div className="col-md-6">
                         <img src={image} width={250} className="img-fluid rounded-start" alt="..." />
