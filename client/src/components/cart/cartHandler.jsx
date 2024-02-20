@@ -42,7 +42,7 @@ function CartHandler({ pedido, deleteProductCart }) {
                 <button onClick={handleCart} style={{ backgroundColor: "transparent", border: "none", borderRadius: "10%", }}>
                     <img width={200} src={carritoImagen} alt="" />
                 </button>
-                {cart.length &&<button className={`cartCounter ${updated ? "updatedCart" : ''}`}>{cart.length}</button>}
+                {cart.length >0 &&<button className={`cartCounter ${updated ? "updatedCart" : ''}`}>{cart.length}</button>}
             </div>
             <div ref={handler} className="row dontShowCart">
                 <Cart handleCart={handleCart} deleteProductCart={deleteProductCart} data={pedido} />

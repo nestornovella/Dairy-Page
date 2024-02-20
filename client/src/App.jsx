@@ -6,7 +6,6 @@ import ProductSection from './components/productSection';
 import { useEffect, useState } from 'react';
 import comestibles from"./comestibles.json"
 import noComestibles from"./noComestibles.json"
-import Cart from './components/cart/cart';
 import CartHandler from './components/cart/cartHandler';
 import useSendData from './hooks/templateWhatsapp';
 
@@ -18,7 +17,6 @@ function App() {
   
   useSendData()
   
-
   useEffect(()=>{
     if(category === 'lacteos'){
       setData(comestibles)
