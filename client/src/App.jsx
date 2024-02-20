@@ -3,15 +3,20 @@ import Search from './components/search';
 import './App.css';
 import CategorySection from './components/categorySection';
 import ProductSection from './components/productSection';
-import Navbar from './components/nav';
 import { useEffect, useState } from 'react';
 import comestibles from"./comestibles.json"
 import noComestibles from"./noComestibles.json"
+import Cart from './components/cart/cart';
+import CartHandler from './components/cart/cartHandler';
+import useSendData from './hooks/templateWhatsapp';
 
 
 function App() {
   const [data, setData]= useState([])
   const [category, setCategory]= useState("lacteos")
+  const [pedido, setPedido]= useState([])
+  
+  useSendData()
   
 
   useEffect(()=>{
@@ -48,14 +53,27 @@ function App() {
     }
   }
 
+  function addToCart(product){
+    let found = false
+    pedido.forEach(prod => prod.name === product.name ? found = true : "")
+
+    !found && 
+    setPedido(prev => [...prev, product])
+  }
+
+  function deleteProductCart(name){
+    setPedido(prev => [...prev].filter(prod => !prod.name.includes(name)))
+  }
+
   return (
-    <div>
+    
       <div className="container">
+        <CartHandler  deleteProductCart={deleteProductCart} pedido={pedido}/>
         <Search callback={search}/>
-        <CategorySection current={category} newProducts={newProducts} lacteos={lacteos} perfumeria={perfumeria} />
-        <ProductSection data={data} />
+        <CategorySection  current={category} newProducts={newProducts} lacteos={lacteos} perfumeria={perfumeria} />
+        <ProductSection addProduct={addToCart} data={data} />
       </div>
-    </div>
+    
 
 
   )

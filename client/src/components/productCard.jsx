@@ -1,10 +1,21 @@
 import './../App.css';
+import logoAddCart from "../assets/logoAddCart.png"
+import { useDispatch } from 'react-redux';
+import { useEffect } from 'react';
+import { addToCart, updateCart } from '../redux/actions/actions';
 
 
-function ProductCard({price, weight, name, image, isNew}) {
+function ProductCard({prod, price, weight, name, image, isNew, addProduct}) {
+
+    const dispatch = useDispatch()
+    
+
+    
+
     return (
         <div className="col-xl-4 small col-sm-12 cardContainer" >
             {isNew &&  <img className='newImage' src="https://www.desab.com.ar/wp-content/uploads/2020/11/producto-nuevo-png-1-300x297.png" alt="" />        }
+            <button onClick={()=> dispatch(addToCart(prod))} className='addButtonProduct'><img width={40} src={logoAddCart} alt="" /></button>
             <div className="card mb-3 "  >
                 <div className="row g-0 d-flex align-items-center">
                     <div className="col-md-6">
