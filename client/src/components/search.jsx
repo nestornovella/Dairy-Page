@@ -24,8 +24,8 @@ function Search({ callback }) {
                 <a href="https://api.whatsapp.com/send?phone=+541125420570&text=hola"><img width={50} src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="" /></a>
                     <input ref={inputValue} type="text"
                         className="form-control mx-2" name="" id="" aria-describedby="helpId" placeholder="" />
-                    <button onClick={() => setValue()} type="button" className="btn btn-primary mx-2">buscar</button>
-                    <button onClick={() => cleanInput()} type="button" className="btn btn-primary mx-2">🧹</button>
+                    <button onClick={() => setValue()} type="button" className="btn btn-dark mx-2">buscar</button>
+                    <button onClick={() => cleanInput()} type="button" className="btn btn-dark mx-2"><img width={30} src="https://cdn-icons-png.freepik.com/512/3221/3221897.png" alt="" /></button>
                 
                 </div>
             </div>
