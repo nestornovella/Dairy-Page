@@ -108,7 +108,7 @@ body {
     overflow-y: scroll;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1150px){
     .cartOpenButton button img{
         width: 80px;
     }
