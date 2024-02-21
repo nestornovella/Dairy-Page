@@ -36,11 +36,11 @@ function CartRender({ data, deleteProductCart }) {
                 <thead >
                     <tr >
                         <th >Img.</th>
-                        <th>Nombre</th>
+                        <th>Prod</th>
                         <th>-</th>
-                        <th>cant.</th>
+                        <th>Cant.</th>
                         <th>+</th>
-                        <th>elim.</th>
+                        <th>Elim.</th>
                     </tr>
                 </thead>
                 <tbody>

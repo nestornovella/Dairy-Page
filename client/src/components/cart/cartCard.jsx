@@ -23,12 +23,12 @@ function CartCard({agregarPedido, image, name, price, deleteProductCart }) {
     },[units])
 
     return (
-            <tr className="">
+            <tr >
                 <td><img width={60} src={image} alt="" /></td>
-                <td className="text-center"> <p className="text-secondary" style={{marginTop:'10px'}}>{name}</p></td>
-                <td><button onClick={restUnits} className=" " style={{border:'none', background:'transparent'}}><img width={40} src={sumar} alt="" /></button></td>
-                <td><p className="text-secondary" style={{marginTop:'10px'}}>Unidades: <span>{units}</span></p></td>
-                <td><button onClick={addUnist} className=" " style={{border:'none', background:'transparent'}}><img width={40} src={restar} alt="" /></button></td>
+                <td><p className="text-secondary textCart" style={{marginTop:'10px'}}>{name}</p></td>
+                <td><button onClick={restUnits} className=" " style={{border:'none', background:'transparent'}}><img width={35} src={sumar} alt="" /></button></td>
+                <td><p className="text-secondary textCart" style={{marginTop:'10px'}}>Unidades: <span>{units}</span></p></td>
+                <td><button onClick={addUnist} className=" " style={{border:'none', background:'transparent'}}><img width={35} src={restar} alt="" /></button></td>
                 <td><button onClick={()=>dispatch(deleteProduct(name))} className="btn  rounded-4"><img width={30}src="https://cdn-icons-png.flaticon.com/512/7347/7347206.png" alt="" /></button></td>
             </tr>
            
@@ -37,9 +37,4 @@ function CartCard({agregarPedido, image, name, price, deleteProductCart }) {
 }
 
 export default CartCard;
-   {/* <img width={40} src={image} alt="" />
-            <p className="text-secondary">{name}</p>
-            <button className="btn">+</button>
-            <p>cantidad <span>0</span></p>
-            <button className="btn">-</button>
-            <button className="btn btn-danger">X</button> */}
+   
