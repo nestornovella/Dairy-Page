@@ -9,9 +9,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 .barraBusqueda input{
-    margin: 10px;
     width: 80%;
 }
 
@@ -135,8 +135,21 @@ body {
         width: 25px;
     }
     .cartContainer{
+        width: 70%;
+    }
+    .barraBusqueda input{
+        margin: 10px;
         width: 60%;
     }
+    .barraBusqueda{
+        padding: 0 ;
+    
+    }
+    .cartRenderContainer{
+        max-height: 50vh;
+        overflow-y: scroll;
+    }
+   
 }
 @media (max-width: 550px) {
     .small {

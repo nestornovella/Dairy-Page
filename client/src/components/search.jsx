@@ -22,8 +22,8 @@ function Search({ callback }) {
             <div className="col-sm-12 col-xl-9  p-3 rounded-4" style={{backgroundColor:"#C62271"}}>
                 <div className="form-group barraBusqueda">
                     <input ref={inputValue} type="text"
-                        className="form-control mx-2"  name="" id="" aria-describedby="helpId" placeholder="" />
-                    <button onClick={() => setValue()} type="button" className="btn btn-dark mx-2">buscar</button>
+                        className="form-control  mx-2"  name="" id="" aria-describedby="helpId" placeholder="" />
+                    <button onClick={() => setValue()} type="button" className="btn btn-dark mx-2"><img width={30} src="https://cdn-icons-png.flaticon.com/512/4305/4305549.png" alt="" /></button>
                     <button onClick={() => cleanInput()} type="button" className="btn btn-dark mx-2"><img width={30} src="https://cdn-icons-png.freepik.com/512/3221/3221897.png" alt="" /></button>
                 
                 </div>

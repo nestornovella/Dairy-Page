@@ -15,7 +15,7 @@ function Cart({ handleCart, data, deleteProductCart }) {
 
     return (
         <div className="cartContainer container">
-            <div onClick={handleCart} className="row"><button className='btn p-3' style={{backgroundColor:'#C62271', color:"white"}}>Cerrar</button></div>
+            <div onClick={handleCart} className="row"><button className='btn p-3' style={{backgroundColor:'#C62271', color:"white", fontWeight:"900"}}>Cerrar</button></div>
             <CartRender deleteProductCart={deleteProductCart} data={data} />
             <div className='row'>
                 {
