@@ -15,13 +15,7 @@ function CartRender({ data, deleteProductCart }) {
         //dispatch(updateCart(pedido))
     },[pedido])
 
-    function agregarPedido(prod) {
-            // dispatch(updateCart(
-         
-            // [...cart.filter(pro => pro.name != prod.name), prod]
-            // ))
-        
-    }
+   
 
     if(cart.length){
         dispatch(setTotal(cart.reduce((acc, curr)=> acc + curr.subTotal, 0)))
@@ -44,8 +38,8 @@ function CartRender({ data, deleteProductCart }) {
                     </tr>
                 </thead>
                 <tbody>
-                    {cart && cart.map((prod, index )=> {
-                        return <CartCard key={index} agregarPedido={agregarPedido} deleteProductCart={deleteProductCart} 
+                    {cart && cart.map((prod )=> {
+                        return <CartCard key={prod.id} variety={prod.variety} selected={prod.selected} id={prod.id}  deleteProductCart={deleteProductCart} 
                         price={prod.price} image={prod.image} name={prod.name} />
                     })}
                 </tbody>

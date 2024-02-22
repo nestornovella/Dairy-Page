@@ -52,6 +52,11 @@ body {
 
 }
 
+.selectVarity{
+    position: absolute;
+    bottom: 14px;
+}
+
 /* CART */
 
 .cartContainer {
@@ -143,6 +148,14 @@ body {
     .cartCounter{
         padding: 3px;
         width: 25px;
+    }
+    .selectVarity{
+        font-size: 30px;
+        
+       
+    }
+    .selectVarity option{
+        
     }
    
 }

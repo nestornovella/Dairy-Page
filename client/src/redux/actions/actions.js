@@ -29,10 +29,10 @@ export function addToCart(product){
     }
 }
 
-export function deleteProduct(name){
+export function deleteProduct(id){
     return {
         type: actionTypes.DELETE_PRODUCT,
-        payload: name
+        payload: id
     }
 
 }

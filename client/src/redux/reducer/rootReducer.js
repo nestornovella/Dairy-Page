@@ -20,19 +20,19 @@ function rootReducer(state = initailState, actions) {
                 cart: actions.payload
             })
         case actionTypes.ADD_TO_CART:
-            if(state.cart.find(prod => prod.name == actions.payload.name)){
+            if(state.cart.find(prod => prod.id == actions.payload.id && !prod.variety)){
                 return{
                     ...state
                 }
             }
             return ({
                 ...state,
-                cart: [...state.cart, { ...actions.payload, subTotal: 0, cantidad: 1 }]
+                cart: [...state.cart, { ...actions.payload, subTotal: 0, cantidad: 1, selected: +actions.payload.selected }]
             })
         case actionTypes.DELETE_PRODUCT:
             return {
                 ...state,
-                cart: [...state.cart].filter(prod => prod.name != actions.payload)
+                cart: [...state.cart].filter(prod => (prod.id + prod.selected) != actions.payload)
             }
 
         case actionTypes.SET_TOTAL:
@@ -43,7 +43,7 @@ function rootReducer(state = initailState, actions) {
         case actionTypes.UPDATE_UNITS_TOTAL:
 
             const cartChanged = [...state.cart].map(e => {
-                if(e.name == actions.payload.name){
+                if((e.name + e.selected) == (actions.payload.name + actions.payload.selected)){
                     return {...e, cantidad: actions.payload.cantidad, subTotal: actions.payload.subTotal}
                 }else return e
             })

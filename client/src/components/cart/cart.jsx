@@ -11,10 +11,11 @@ function Cart({ handleCart, data, deleteProductCart }) {
     const totalCart = useSelector(store => store.totalCart)
     const send = `https://api.whatsapp.com/send?phone=+541125420570&text=${useSendData()}`
 
+    console.log(cartProducts)
 
     return (
         <div className="cartContainer container">
-            <div onClick={handleCart} className="row"><button className='btn' style={{backgroundColor:'#C62271', color:"white"}}>Cerrar</button></div>
+            <div onClick={handleCart} className="row"><button className='btn p-3' style={{backgroundColor:'#C62271', color:"white"}}>Cerrar</button></div>
             <CartRender deleteProductCart={deleteProductCart} data={data} />
             <div className='row'>
                 {
