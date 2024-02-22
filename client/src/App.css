@@ -4,6 +4,19 @@ body {
     min-height: 100vh;
 }
 
+/* Busqueda */
+.barraBusqueda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.barraBusqueda input{
+    margin: 10px;
+    width: 80%;
+}
+
+/* end Busqueda */
+
 .categoryCard {
     height: 70px;
 }
@@ -154,8 +167,9 @@ body {
         
        
     }
-    .selectVarity option{
-        
+    .barraBusqueda input{
+        margin: 10px;
+        width: 100%;
     }
    
 }
