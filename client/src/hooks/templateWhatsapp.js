@@ -5,7 +5,7 @@ function useSendData() {
     const totalCart = useSelector(store => store.totalCart);
     const date = new Date()
     const month = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
-    const actualDate = date.getDay() + " " + month[+date.getMonth()]+ " " + date.getFullYear()
+    const actualDate = date.getDate() + " " + month[+date.getMonth()]+ " " + date.getFullYear()
 
 
 
