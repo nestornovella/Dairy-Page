@@ -15,6 +15,15 @@ body {
     width: 80%;
 }
 
+.enviosLogo{
+    position: absolute;
+    width: 200px;
+    top: -70px;
+    right: 0;
+    animation: enviosAnimation 2s ease-out;
+    
+}
+
 /* end Busqueda */
 
 
@@ -230,5 +239,15 @@ body {
     }
     100% {
         transform: scale(2) rotateY(360deg);
+    }
+}
+
+@keyframes enviosAnimation {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateX(0);
+
     }
 }
