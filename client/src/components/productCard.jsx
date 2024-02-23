@@ -2,7 +2,7 @@ import './../App.css';
 import logoAddCart from "../assets/logoAddCart.png"
 import { useDispatch } from 'react-redux';
 import { useEffect, useState } from 'react';
-import { addToCart, updateCart } from '../redux/actions/actions';
+import { addToCart } from '../redux/actions/actions';
 
 
 function ProductCard({ prod, price, weight, name, image, isNew }) {
