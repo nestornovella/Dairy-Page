@@ -20,6 +20,10 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
         setShow(!show)
     }
 
+    useEffect(()=>{
+        setVariety(0)
+    },[prod])
+
 
     return (
         <div className="col-xl-4 small col-sm-12 cardContainer" >
@@ -28,7 +32,7 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
             <div className="card mb-3 "  >
                 <div className="row g-0 d-flex align-items-center">
                     <div className="col-md-6">
-                        <img src={prod.variety ? image[variety] : image[0]} width={250} className="img-fluid rounded-start" alt="..." />
+                        <img src={image[variety]} width={250} className="img-fluid rounded-start" alt="" />
                     </div>
                     <div className="col-md-6">
                         <div className="card-body">
