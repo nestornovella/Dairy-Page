@@ -22,6 +22,7 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
 
     useEffect(()=>{
         setVariety(0)
+        setShow(false)
     },[prod])
 
 
