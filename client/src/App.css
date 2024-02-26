@@ -1,7 +1,7 @@
 body {
     background: rgb(14, 14, 17);
     background: linear-gradient(90deg, rgba(14, 14, 17, 1) 0%, rgba(28, 31, 31, 1) 66%);
-    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 /* Busqueda */
