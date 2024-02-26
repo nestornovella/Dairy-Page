@@ -1,7 +1,6 @@
 body {
     background: rgb(14, 14, 17);
-    background: linear-gradient(90deg, rgba(14, 14, 17, 1) 0%, rgba(28, 31, 31, 1) 66%);
-    min-height: 100dvh;
+    background: linear-gradient(90deg, rgba(14, 14, 17, 1) 0%, rgba(28, 31, 31, 1) 66%);   
 }
 
 /* Busqueda */
@@ -86,7 +85,7 @@ body {
 .cartContainer {
     position: fixed;
     width: 30vw;
-    min-height: 100dvh;
+    min-height: 100svh;
     right: 0;
     top: 0;
     background-color: rgba(4, 3, 3, 0.479);
