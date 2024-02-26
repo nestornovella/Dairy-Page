@@ -5,7 +5,7 @@ function CategorySection({current, newProducts, lacteos, perfumeria}) {
     return (  
         <div className="row mt-4 rounded-4  ">
             <div className="col-xl-4 my-1">
-            <CategoryCard current={current} callBack={lacteos} color={"#F934FF"} title={"LACTEOS"}/>
+            <CategoryCard current={current} callBack={lacteos} color={"#29A850"} title={"LACTEOS"}/>
             </div>
             <div className="col-xl-4 my-1">
             <CategoryCard current={current} callBack={perfumeria} color={"#2488BA"} title={"PERFUMERIA"}/>
