@@ -18,7 +18,7 @@ function Search({ callback }) {
 
     return (
         <div className="row d-flex justify-content-center mt-3 mb-0" >
-            <div className="row mb-5 d-flex justify-content-center">
+            <div className="row mb-5 d-flex justify-content-center initialLogo">
                 <img style={{ maxWidth: "500px" }} src="https://vendiendoofertas.files.wordpress.com/2016/07/logo-vendiendo-ofertas-fondo-transparente1.png" alt="" />
             </div>
             <div className="col-sm-12 col-xl-9  p-3 rounded-4" style={{ backgroundColor: "#C62271", position: "relative" }}>

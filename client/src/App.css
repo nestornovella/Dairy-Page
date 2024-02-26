@@ -4,6 +4,9 @@ body {
 }
 
 /* Busqueda */
+.initialLogo{
+    animation: initialLogoAnimation 1s ease-out;
+}
 .barraBusqueda{
     display: flex;
     flex-wrap: wrap;
@@ -195,6 +198,11 @@ body {
         margin: 10px;
         width: 100%;
     }
+    .enviosLogo{
+    
+        animation: enviosAnimation 1.5s ease-out;
+        
+    }
    
 }
 
@@ -244,10 +252,20 @@ body {
 
 @keyframes enviosAnimation {
     0% {
-        transform: translateX(-100vw);
+        transform:  translateX(-100vw) rotate(-5deg);
     }
     100% {
-        transform: translateX(0);
+        transform: translateX(0) rotateY(0deg);
+
+    }
+}
+
+@keyframes initialLogoAnimation {
+    0%{
+        transform: rotateY(-100deg) translateY(-100px);
+    }
+    100%{
+        transform: translateY(0) rotateX(0deg);
 
     }
 }
