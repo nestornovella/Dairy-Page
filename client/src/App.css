@@ -85,7 +85,7 @@ body {
 .cartContainer {
     position: fixed;
     width: 30vw;
-    min-height: 100svh;
+    height: 100dvh;
     right: 0;
     top: 0;
     background-color: rgba(4, 3, 3, 0.479);
