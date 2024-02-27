@@ -131,14 +131,29 @@ body {
 .updatedCart{
     animation: expandLogo 0.5s alternate;
 }
-/* end CART */
-
-
 
 .cartRenderContainer{
     max-height: 70vh;
     overflow-y: scroll;
 }
+/* end CART */
+
+/* ProductCard */
+.inactiveProduct{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    right: 12px;
+    background-color:#F82745;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 5px;
+    border-radius: 0 0 0px 10px;
+}
+
+/* end ProductCard */
+
 
 @media (max-width: 1150px){
     .cartOpenButton button img{

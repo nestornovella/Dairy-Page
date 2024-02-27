@@ -20,16 +20,16 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
         setShow(!show)
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         setVariety(0)
         setShow(false)
-    },[prod])
+    }, [prod])
 
 
     return (
         <div className="col-xl-4 small col-sm-12 cardContainer" >
             {isNew && <img className='newImage' src="https://www.desab.com.ar/wp-content/uploads/2020/11/producto-nuevo-png-1-300x297.png" alt="" />}
-            <button onClick={() => dispatch(addToCart({ ...prod, selected: variety }))} className='addButtonProduct'><img width={40} src={logoAddCart} alt="" /></button>
+            {prod.active ? <button onClick={() => dispatch(addToCart({ ...prod, selected: variety }))} className='addButtonProduct'><img width={40} src={logoAddCart} alt="" /></button> : <p className='inactiveProduct'>Sin Stock</p>}
             <div className="card mb-3 "  >
                 <div className="row g-0 d-flex align-items-center">
                     <div className="col-md-6">
@@ -57,12 +57,8 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
                         variedad
                     </button>
                     <ul className={` dropdown-menu ${show ? "show" : ""}`}>
-                        {
-                            prod.variety.map((e, index) => {
-
-                                return <li key={index}><button className="dropdown-item" value={index} onClick={handleVariety}>{e}</button></li>
-                            })
-                        }
+                        {prod.variety.map((e, index) => {
+                            return <li key={index}><button className="dropdown-item" value={index} onClick={handleVariety}>{e}</button></li>})}
                     </ul>
                 </div>}
             </div>

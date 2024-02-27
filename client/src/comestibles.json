@@ -9,7 +9,8 @@
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/806763-800-600?v=638403385086900000&width=800&height=600&aspect=true"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"7xtc7Td2Yyyd7zZc1yz",
@@ -20,7 +21,8 @@
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/782004-800-600?v=638201073856830000&width=800&height=600&aspect=true"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"CcCDyTZT4231cD1X5YT",
@@ -31,7 +33,8 @@
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/783019-800-600?v=638206690563500000&width=800&height=600&aspect=true"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"x6353Cz67zyy3CT46Xc",
@@ -42,7 +45,8 @@
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/585994-800-600?v=637258009050470000&width=800&height=600&aspect=true"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"Yd3zCcDcx45ZC5dTzd1",
@@ -53,7 +57,8 @@
     "isNew":false,
     "image":[
       "https://d3340tyzmtlo4u.cloudfront.net/users/864/images/detailed/9/La_Seren%C3%ADsima_Queso_Port_Salut_Light,_1_kg__Aprox_.webp"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"3t5T7dTtX1xYXZD3zd1",
@@ -64,7 +69,8 @@
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012918.jpg?3.0.165"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"5dx3Xyt47576X74DYCc",
@@ -75,7 +81,8 @@
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/596817-800-600?v=637321944218600000&width=800&height=600&aspect=true"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"zx2CdXt25c6t4txYTDy",
@@ -86,7 +93,8 @@
     "isNew":false,
     "image":[
       "https://www.cusumano.com.ar/wp-content/uploads/2022/05/Muzza-Barraza-500g.jpg"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"1C71y5cDC13C1D2Cd4Y",
@@ -97,7 +105,8 @@
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/782041-800-600?v=638201074031270000&width=800&height=600&aspect=true"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"xz5XD64x665c5t36yyC",
@@ -108,7 +117,8 @@
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/789226-800-600?v=638261445691230000&width=800&height=600&aspect=true"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"3yc6Z7X51Y4D1Dy7Dtz",
@@ -119,7 +129,8 @@
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/782022-800-600?v=638201073938200000&width=800&height=600&aspect=true"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"D3Tt7tYXDzcyZ6y6YcZ",
@@ -130,7 +141,8 @@
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/664090-800-600?v=637667348474100000&width=800&height=600&aspect=true"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"6ycxXx74dc3d5271Tcz",
@@ -141,7 +153,8 @@
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/791551-800-600?v=638288445667230000&width=800&height=600&aspect=true"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"yYy77D2c5Y65d3X5ddZ",
@@ -152,7 +165,8 @@
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/791552-800-600?v=638288445670500000&width=800&height=600&aspect=true"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"CdX7t35C51XxCtYZD5y",
@@ -162,7 +176,8 @@
     "isNew":false,
     "image":[
       "https://http2.mlstatic.com/D_NQ_NP_678907-MLA73546467969_122023-O.webp"
-    ]
+    ],
+    "active":true
   },
   {
     "id":"TdZc331XytdXDt223X3",
@@ -173,6 +188,7 @@
     "isNew":false,
     "image":[
       "https://http2.mlstatic.com/D_NQ_NP_717244-MLA74253459436_022024-O.webp"
-    ]
+    ],
+    "active":true
   }
 ]
