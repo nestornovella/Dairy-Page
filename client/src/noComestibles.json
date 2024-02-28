@@ -80,7 +80,7 @@
     "id":"CXC1CTcdTD344xD1y2D",
     "name":"Dove Barra",
     "weight":"50 g",
-    "variety":"",
+    "variety":[""],
     "price":"$2000",
     "isNew":true,
     "image":[
@@ -92,7 +92,7 @@
     "id":"czzT3C16D55T31Cz7TX",
     "name":"Pantene",
     "weight":"200 ml",
-    "variety":["Resta."],
+    "variety":["Rest."],
     "price":"$ 1400",
     "isNew":false,
     "image":[
@@ -116,7 +116,7 @@
     "id":"2ctcZX7d4CtdXzXTtZ1",
     "name":"shampoo Elvive",
     "weight":"200 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$ 1400",
     "isNew":false,
     "image":[
@@ -128,6 +128,7 @@
     "id":"4C51z675x3tcDdy2671",
     "name":"Acond. Elvive",
     "weight":"200 ml",
+    "variety":[""],
     "price":"$ 1400",
     "isNew":false,
     "image":[
@@ -139,7 +140,7 @@
     "id":"1Z73zz2y3xtd2X56xt6",
     "name":"head and Should.",
     "weight":"200 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$ 1400",
     "isNew":false,
     "image":[
@@ -151,7 +152,7 @@
     "id":"tDc7Txyd3zDx63dCz77",
     "name":"Shampoo dove",
     "weight":"200 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$ 1400",
     "image":[
       "https://www.rimoldimayorista.com.ar/datos/uploads/mod_catalogo/31308/dove-sh-400ml-6064a216d7a53.jpg"
@@ -162,7 +163,7 @@
     "id":"X624YX3x5Z7t3yT1zZ4",
     "name":"Acond. dove",
     "weight":"200 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$ 1400",
     "isNew":false,
     "image":[
@@ -200,7 +201,7 @@
     "id":"1X4117DYD1362C3t22d",
     "name":"Pantene Volumen",
     "weight":"110 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$7000",
     "isNew":true,
     "image":[
@@ -212,7 +213,7 @@
     "id":"Yd1CtXX354Zz4y7Yx3z",
     "name":"Isue Saloon IR",
     "weight":"110 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$3000",
     "isNew":true,
     "image":[
@@ -224,7 +225,7 @@
     "id":"x6zZ7ZCy3Zx5y6Xx7X7",
     "name":"Isue Saloon IR",
     "weight":"110 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$3000",
     "isNew":true,
     "image":[
@@ -236,7 +237,7 @@
     "id":"2ZdCC6T6dYDCzYc4CT7",
     "name":"Crema Nivea",
     "weight":"200 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$ 2000",
     "isNew":false,
     "image":[
@@ -248,7 +249,7 @@
     "id":"tCx2tcTC5TdCx64Tz63",
     "name":"Crema Niv. Reaf",
     "weight":"250 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$ 3000",
     "isNew":true,
     "image":[
@@ -260,7 +261,7 @@
     "id":"Z2y3157y5cXCY45Z1Y5",
     "name":"Nivea Lata",
     "weight":"150 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$ 2000",
     "isNew":false,
     "image":[
@@ -272,7 +273,7 @@
     "id":"1cx34ZDTTCD2T6x6xCy",
     "name":"Crema Spray Cont",
     "weight":"250 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$ 3500",
     "isNew":true,
     "image":[
@@ -284,7 +285,7 @@
     "id":"xz5x32X7ZXddZTD7CDD",
     "name":"Skip",
     "weight":"500 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$3000",
     "isNew":false,
     "image":[
@@ -296,7 +297,7 @@
     "id":"XYZzY4cCCD7tXY5zYT1",
     "name":"Skip R blanca",
     "weight":"500 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$4000",
     "isNew":true,
     "image":[
@@ -308,7 +309,7 @@
     "id":"3176tz625Tt1dDxxcCy",
     "name":"Skip R Perfumada",
     "weight":"500 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$4000",
     "isNew":true,
     "image":[
@@ -320,7 +321,7 @@
     "id":"zdt1cT1xDx4YCd634c7",
     "name":"Off Extra Dur.",
     "weight":"200 ml",
-    "variety":"",
+    "variety":[""],
     "price":"$2500",
     "isNew":false,
     "image":[
