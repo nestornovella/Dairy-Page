@@ -1,15 +1,21 @@
-import './../App.css';
-import logoAddCart from "../assets/logoAddCart.png"
-import { useDispatch } from 'react-redux';
-import { useEffect, useState } from 'react';
-import { addToCart } from '../redux/actions/actions';
+import './../../App.css';
+import logoAddCart from "../../assets/logoAddCart.png"
+import { useDispatch, useSelector } from 'react-redux';
+import { useEffect, useRef, useState } from 'react';
+import { addToCart } from '../../redux/actions/actions';
+import AlertProduct from './alertProduct';
 
 
 function ProductCard({ prod, price, weight, name, image, isNew }) {
     const dispatch = useDispatch()
     const [variety, setVariety] = useState(0)
     const [show, setShow] = useState(false)
+    const [alertShow, setAlertShow]= useState(false)
+    const [added, setAdded]= useState(false)
 
+    const cart = useSelector( store => store.cart)
+
+    const alertCard = useRef(null) 
 
     function handleVariety(event) {
         setVariety(event.target.value)
@@ -20,16 +26,30 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
         setShow(!show)
     }
 
+    function showAlert(){
+        setAdded(true)
+        setTimeout(()=>{
+            setAdded(false)
+        },1800)
+    }
+
+    useEffect(()=>{
+        setAlertShow(true)
+        setTimeout(()=>{
+            setAlertShow(false)
+        },1900)
+    },[cart.length])
+
     useEffect(() => {
         setVariety(0)
         setShow(false)
     }, [prod])
 
-
+ 
     return (
-        <div className="col-xl-4 small col-sm-12 cardContainer" >
+        <div className="col-xl-4 small col-sm-12 cardContainer"  >
             {isNew && <img className='newImage' src="https://www.desab.com.ar/wp-content/uploads/2020/11/producto-nuevo-png-1-300x297.png" alt="" />}
-            {prod.active ? <button onClick={() => dispatch(addToCart({ ...prod, selected: variety }))} className='addButtonProduct'><img width={40} src={logoAddCart} alt="" /></button> : <p className='inactiveProduct'>Sin Stock</p>}
+            {prod.active ? <button onClick={() => {dispatch(addToCart({ ...prod, selected: variety, name:`${prod.name} ${prod.variety[variety]}` })); showAlert()}} className='addButtonProduct'><img width={40} src={logoAddCart} alt="" /></button> : <p className='inactiveProduct'>Sin Stock</p>}
             <div className="card mb-3 "  >
                 <div className="row g-0 d-flex align-items-center">
                     <div className="col-md-6">
@@ -49,7 +69,7 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
 
                     </div>
                 </div>
-
+                {alertShow && added && <AlertProduct />}
             </div>
             <div>
                 {prod.variety && <div className="dropdown selectVarity">

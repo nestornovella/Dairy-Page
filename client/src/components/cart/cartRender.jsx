@@ -16,10 +16,11 @@ function CartRender({ data, deleteProductCart }) {
     },[pedido])
 
    
-
-    if(cart.length){
-        dispatch(setTotal(cart.reduce((acc, curr)=> acc + curr.subTotal, 0)))
-    }
+    useEffect(()=>{
+        if(cart.length){
+            dispatch(setTotal(cart.reduce((acc, curr)=> acc + curr.subTotal, 0)))
+        }
+    },[cart])
 
     // setTimeout(()=>{
     //     console.log(pedido)

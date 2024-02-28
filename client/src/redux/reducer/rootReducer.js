@@ -20,7 +20,7 @@ function rootReducer(state = initailState, actions) {
                 cart: actions.payload
             })
         case actionTypes.ADD_TO_CART:
-            if(state.cart.find(prod => prod.id == actions.payload.id && !prod.variety)){
+            if(state.cart.find(prod => prod.id == actions.payload.id && prod.name == actions.payload.name)){
                 return{
                     ...state
                 }

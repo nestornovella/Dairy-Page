@@ -74,10 +74,7 @@ body {
 
 }
 
-.cardContainer {
-    position: relative;
 
-}
 
 .selectVarity{
     position: absolute;
@@ -136,6 +133,8 @@ body {
     max-height: 70vh;
     overflow-y: scroll;
 }
+
+
 /* end CART */
 
 /* ProductCard */
@@ -151,6 +150,26 @@ body {
     padding: 5px;
     border-radius: 0 0 0px 10px;
 }
+.cardContainer {
+    position: relative;
+   
+}
+
+.alertCard p{
+    position: absolute;
+    background-color: #F82745;
+    color: white;
+    font-weight: 800;
+    padding: 5px;
+    top: -2px;
+    right: 20%;
+   opacity: 0;
+}
+
+.showAlert{
+    animation: showAlertAnimate 2s alternate ease-in-out;
+
+}
 
 /* end ProductCard */
 
@@ -164,7 +183,7 @@ body {
         width: 25px;
     }
     .cartContainer{
-        width: 70%;
+        width: 55%;
     }
     .barraBusqueda input{
         margin: 10px;
@@ -282,5 +301,18 @@ body {
     100%{
         transform: translateY(0) rotateX(0deg);
 
+    }
+}
+
+@keyframes showAlertAnimate {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+     100%{
+        transform: translateY(0px);
+        opacity: 0;
     }
 }

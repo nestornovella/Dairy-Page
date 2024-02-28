@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Search from './components/search';
 import './App.css';
 import CategorySection from './components/categorySection';
-import ProductSection from './components/productSection';
+import ProductSection from './components/product/productSection';
 import { useEffect, useState } from 'react';
 import comestibles from"./comestibles.json"
 import noComestibles from"./noComestibles.json"

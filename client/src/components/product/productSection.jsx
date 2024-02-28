@@ -1,4 +1,3 @@
-import useGetData from "../hooks/dataHook";
 import ProductCard from "./productCard";
 
 

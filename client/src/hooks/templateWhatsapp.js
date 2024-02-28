@@ -11,7 +11,7 @@ function useSendData() {
 
     let template = `::::::PEDIDO ${actualDate}::::::%0A`;
     cart.forEach(prod => {
-        template += ` %0APRODUCTO: ${prod.variety ? (prod.name + " " + prod.variety[prod.selected]) : prod.name} CANTIDAD: ${prod.cantidad} SUBTOTAL: ${prod.subTotal}%0A `;
+        template += ` %0APRODUCTO: ${prod.name} CANTIDAD: ${prod.cantidad} SUBTOTAL: ${prod.subTotal}%0A `;
 
     });
 
