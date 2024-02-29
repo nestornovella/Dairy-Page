@@ -25,7 +25,8 @@ function Cart({ handleCart, data, deleteProductCart }) {
                         </div>
                         
                         :
-                        <img src="https://store.wom.cl/static/emptyCart-330059ad3236dbc4007efe69452dc691.png" alt="" />
+                        <img src="https://www.distritomoda.com.ar/sites/all/themes/omega_btob/images/carrito_vacio_nuevo.png" alt="" />
+                        // otr imagen "https://store.wom.cl/static/emptyCart-330059ad3236dbc4007efe69452dc691.png"
                 }
             </div>
         </div>
