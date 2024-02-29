@@ -1,30 +1,38 @@
 body {
     background: rgb(14, 14, 17);
-    background: linear-gradient(90deg, rgba(14, 14, 17, 1) 0%, rgba(28, 31, 31, 1) 66%);   
+    background: linear-gradient(90deg, rgba(14, 14, 17, 1) 0%, rgba(28, 31, 31, 1) 66%);
 }
 
 /* Busqueda */
-.initialLogo{
+.barraBusquedaContainer {
+    position: relative;
+    background: rgb(198,34,113);
+background: linear-gradient(90deg, rgba(198,34,113,1) 0%, rgba(63,155,251,1) 100%);
+}
+
+.initialLogo {
     animation: initialLogoAnimation 1s ease-out;
 }
-.barraBusqueda{
+
+.barraBusqueda {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.barraBusqueda input{
+
+.barraBusqueda input {
     width: 80%;
 }
 
-.enviosLogo{
+.enviosLogo {
     position: absolute;
     width: 200px;
     top: -70px;
     right: 12px;
     padding: 0;
     animation: enviosAnimation 2s ease-out;
-    
+
 }
 
 /* end Busqueda */
@@ -39,7 +47,7 @@ body {
     z-index: 10;
 }
 
-.addButtonProduct{
+.addButtonProduct {
     position: absolute;
     top: 0;
     right: 10px;
@@ -50,8 +58,8 @@ body {
 
 }
 
-.addButtonProduct:hover{
-    animation: activateAnimate 2s ease-in-out ;
+.addButtonProduct:hover {
+    animation: activateAnimate 2s ease-in-out;
 }
 
 .categoryCard {
@@ -70,13 +78,13 @@ body {
     opacity: 0.9;
     border: rgb(11, 10, 10) solid 1px;
 
-  
+
 
 }
 
 
 
-.selectVarity{
+.selectVarity {
     position: absolute;
     bottom: 14px;
 }
@@ -93,15 +101,16 @@ body {
     backdrop-filter: blur(20px);
     z-index: 100;
 }
-.dontShowCart{
+
+.dontShowCart {
     display: none;
 }
 
-.showCart{
+.showCart {
     display: block !important;
 }
 
-.cartOpenButton{
+.cartOpenButton {
     position: fixed;
     z-index: 100;
     background-color: transparent;
@@ -109,7 +118,7 @@ body {
     right: 20px;
 }
 
-.cartCounter{
+.cartCounter {
     width: 50px;
     border-radius: 10px;
     padding: 10px;
@@ -125,11 +134,11 @@ body {
     text-align: center;
 }
 
-.updatedCart{
+.updatedCart {
     animation: expandLogo 0.5s alternate;
 }
 
-.cartRenderContainer{
+.cartRenderContainer {
     max-height: 70vh;
     overflow-y: scroll;
 }
@@ -138,24 +147,25 @@ body {
 /* end CART */
 
 /* ProductCard */
-.inactiveProduct{
+.inactiveProduct {
     position: absolute;
     top: 0;
     z-index: 1;
     right: 12px;
-    background-color:#F82745;
+    background-color: #F82745;
     color: white;
     font-size: 15px;
     font-weight: 900;
     padding: 5px;
     border-radius: 0 0 0px 10px;
 }
+
 .cardContainer {
     position: relative;
-   
+
 }
 
-.alertCard p{
+.alertCard p {
     position: absolute;
     background-color: green;
     color: white;
@@ -163,10 +173,10 @@ body {
     padding: 5px;
     top: -2px;
     right: 20%;
-   opacity: 0;
+    opacity: 0;
 }
 
-.showAlert{
+.showAlert {
     animation: showAlertAnimate 2s alternate ease-in-out;
 
 }
@@ -174,31 +184,37 @@ body {
 /* end ProductCard */
 
 
-@media (max-width: 1150px){
-    .cartOpenButton button img{
+@media (max-width: 1150px) {
+    .cartOpenButton button img {
         width: 80px;
     }
-    .cartCounter{
+
+    .cartCounter {
         padding: 3px;
         width: 25px;
     }
-    .cartContainer{
+
+    .cartContainer {
         width: 55%;
     }
-    .barraBusqueda input{
+
+    .barraBusqueda input {
         margin: 10px;
         width: 60%;
     }
-    .barraBusqueda{
-        padding: 0 ;
-    
+
+    .barraBusqueda {
+        padding: 0;
+
     }
-    .cartRenderContainer{
+
+    .cartRenderContainer {
         max-height: 50vh;
         overflow-y: scroll;
     }
-   
+
 }
+
 @media (max-width: 550px) {
     .small {
         text-align: center;
@@ -216,53 +232,63 @@ body {
     .cartContainer {
         width: 100vw;
     }
-    .cartOpenButton button img{
+
+    .cartOpenButton button img {
         width: 100px;
     }
-    .cartCounter{
+
+    .cartCounter {
         padding: 3px;
         width: 25px;
     }
-    .selectVarity{
+
+    .selectVarity {
         font-size: 30px;
-        
-       
+
+
     }
-    .barraBusqueda input{
+
+    .barraBusqueda input {
         margin: 10px;
         width: 100%;
     }
-    .enviosLogo{
-    
+
+    .enviosLogo {
+
         animation: enviosAnimation 1.5s ease-out;
-        
+
     }
-   
+
 }
 
 @keyframes animateButton {
-    0%{
+    0% {
         transform: scale(1.3);
         transform: rotate(10deg);
     }
-    20%{
+
+    20% {
         transform: scale(1);
         transform: rotate(0deg);
     }
-    40%{
+
+    40% {
         transform: scale(1.3);
         transform: rotate(-10deg);
     }
-    60%{
+
+    60% {
         transform: scale(1) rotateY(180deg);
     }
-    80%{
+
+    80% {
         transform: scale(1.3);
         transform: rotate(-10deg);
     }
-    100%{
+
+    100% {
         transform: scale(1) rotateY(360deg);
-     
+
     }
 }
 
@@ -270,6 +296,7 @@ body {
     0% {
         transform: scale(1) rotateX(0deg);
     }
+
     100% {
         transform: scale(1.3) rotateX(360deg);
     }
@@ -279,6 +306,7 @@ body {
     0% {
         transform: scale(1) rotateY(180deg);
     }
+
     100% {
         transform: scale(2) rotateY(360deg);
     }
@@ -286,8 +314,9 @@ body {
 
 @keyframes enviosAnimation {
     0% {
-        transform:  translateX(-100vw) rotate(-5deg);
+        transform: translateX(-100vw) rotate(-5deg);
     }
+
     100% {
         transform: translateX(0) rotateY(0deg);
 
@@ -295,23 +324,26 @@ body {
 }
 
 @keyframes initialLogoAnimation {
-    0%{
+    0% {
         transform: rotateY(-100deg) translateY(-100px);
     }
-    100%{
+
+    100% {
         transform: translateY(0) rotateX(0deg);
 
     }
 }
 
 @keyframes showAlertAnimate {
-    0%{
+    0% {
         opacity: 0;
     }
-    50%{
+
+    50% {
         opacity: 1;
     }
-     100%{
+
+    100% {
         transform: translateY(0px);
         opacity: 0;
     }
