@@ -10,12 +10,16 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
     const dispatch = useDispatch()
     const [variety, setVariety] = useState(0)
     const [show, setShow] = useState(false)
-    const [alertShow, setAlertShow]= useState(false)
-    const [added, setAdded]= useState(false)
+    const [alertShow, setAlertShow] = useState(false)
+    const [added, setAdded] = useState(false)
+    const [alertValue, setAlertValue] = useState({
+        color: 'green',
+        message: 'Se agrego al carrito'
+    })
 
-    const cart = useSelector( store => store.cart)
+    const cart = useSelector(store => store.cart)
 
-    const alertCard = useRef(null) 
+    const alertCard = useRef(null)
 
     function handleVariety(event) {
         setVariety(event.target.value)
@@ -26,30 +30,62 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
         setShow(!show)
     }
 
-    function showAlert(){
-        setAdded(true)
-        setTimeout(()=>{
-            setAdded(false)
-        },1800)
+    function clickAddHandle() {
+
+        const productFinded = cart.filter(pr => pr.id == prod.id + variety)
+        console.log(productFinded)
+        
+        if (!productFinded.length) {
+            dispatch(addToCart({ ...prod, selected: variety, name: `${prod.name} ${prod.variety[variety]}`, id: prod.id + variety }));
+            showAlert()
+        } else {
+            setAlertValue({
+                color: 'red',
+                message: "Ya Fue Agregado"
+            })
+            showAlert()
+            verifyShowProd()
+            
+            console.log('entro aca')
+        }
+
+
     }
 
-    useEffect(()=>{
+    function showAlert() {
+        setAdded(true)
+        setTimeout(() => {
+            setAdded(false)
+        }, 1700)
+    }
+
+    function verifyShowProd(){
         setAlertShow(true)
-        setTimeout(()=>{
+        setTimeout(() => {
             setAlertShow(false)
-        },1900)
-    },[cart.length])
+        }, 1700)
+    }
+
+    useEffect(() => {
+        verifyShowProd()
+    }, [cart.length])
 
     useEffect(() => {
         setVariety(0)
         setShow(false)
     }, [prod])
 
- 
+
+
+
     return (
         <div className="col-xl-4 small col-sm-12 cardContainer"  >
             {isNew && <img className='newImage' src="https://www.desab.com.ar/wp-content/uploads/2020/11/producto-nuevo-png-1-300x297.png" alt="" />}
-            {prod.active ? <button onClick={() => {dispatch(addToCart({ ...prod, selected: variety, name:`${prod.name} ${prod.variety[variety]}` ,id:prod.id + variety })); showAlert()}} className='addButtonProduct'><img width={40} src={logoAddCart} alt="" /></button> : <p className='inactiveProduct'>Sin Stock</p>}
+            {prod.active
+                ?
+                <button onClick={clickAddHandle} className='addButtonProduct'><img width={40} src={logoAddCart} alt="" /></button>
+                :
+                <p className='inactiveProduct'>Sin Stock</p>}
             <div className="card mb-3 "  >
                 <div className="row g-0 d-flex align-items-center">
                     <div className="col-md-6">
@@ -69,7 +105,7 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
 
                     </div>
                 </div>
-                {alertShow && added && <AlertProduct />}
+                {alertShow && added && <AlertProduct value={alertValue} />}
             </div>
             <div>
                 {prod.variety[0] && <div className="dropdown selectVarity">
@@ -78,7 +114,8 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
                     </button>
                     <ul className={` dropdown-menu ${show ? "show" : ""}`}>
                         {prod.variety.map((e, index) => {
-                            return <li key={index}><button className="dropdown-item" value={index} onClick={handleVariety}>{e}</button></li>})}
+                            return <li key={index}><button className="dropdown-item" value={index} onClick={handleVariety}>{e}</button></li>
+                        })}
                     </ul>
                 </div>}
             </div>

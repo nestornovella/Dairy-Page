@@ -4,16 +4,16 @@ import { useSelector } from 'react-redux';
 
 
 
-function AlertProduct({inCart}) {
+function AlertProduct({value}) {
     const [show, setShow]=useState(false)
 
-    
+    console.log(value)
 
     
   
     return (
         <div className='alertCard'>
-            {inCart ? <p className='showAlert'>el producto ya se ingreso</p> : <p className='showAlert'>producto guardado</p> }
+            <p className='showAlert' style={{backgroundColor:value.color}}>{value.message}</p>
         </div>
     );
 }
