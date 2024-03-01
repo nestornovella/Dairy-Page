@@ -8,6 +8,7 @@ import comestibles from"./comestibles.json"
 import noComestibles from"./noComestibles.json"
 import CartHandler from './components/cart/cartHandler';
 import useSendData from './hooks/templateWhatsapp';
+import Entrega from './components/fechaDeEntrega';
 
 
 function App() {
@@ -66,6 +67,7 @@ function App() {
   return (
     
       <div className="container">
+        <Entrega/>
         <CartHandler  deleteProductCart={deleteProductCart} pedido={pedido}/>
         <Search callback={search}/>
         <CategorySection  current={category} newProducts={newProducts} lacteos={lacteos} perfumeria={perfumeria} />

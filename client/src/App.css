@@ -3,6 +3,17 @@ body {
     background: linear-gradient(90deg, rgba(14, 14, 17, 1) 0%, rgba(28, 31, 31, 1) 66%);
 }
 
+.fechaEntregaContainer{
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+.fechaEntregaContainer p{
+    background-color: #2488BA;
+}
 /* Busqueda */
 .barraBusquedaContainer {
     position: relative;
