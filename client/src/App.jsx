@@ -4,8 +4,8 @@ import './App.css';
 import CategorySection from './components/categorySection';
 import ProductSection from './components/product/productSection';
 import { useEffect, useState } from 'react';
-import comestibles from"./comestibles.json"
-import noComestibles from"./noComestibles.json"
+import comestibles from"./data/comestibles.json"
+import noComestibles from"./data/noComestibles.json"
 import CartHandler from './components/cart/cartHandler';
 import useSendData from './hooks/templateWhatsapp';
 import Entrega from './components/fechaDeEntrega';

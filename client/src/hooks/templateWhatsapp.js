@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import fecha from "../data/fechaDeEntrega.json"
 
 function useSendData() {
     const cart = useSelector(store => store.cart);
@@ -15,7 +16,8 @@ function useSendData() {
 
     });
 
-    template += `-----------------------------------------------------------%0ATotal: ${totalCart}`
+    template += `%0A-----------------------------------------------------------%0ATotal: ${totalCart}`
+    template += `%0ASe entrega apartir del Lunes ${fecha.date}`
 
 
     return template;

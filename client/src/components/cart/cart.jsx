@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import './../../App.css';
 import CartRender from './cartRender';
 import useSendData from '../../hooks/templateWhatsapp';
-
+import fecha from "../../data/fechaDeEntrega.json"
 
 
 function Cart({ handleCart, data, deleteProductCart }) {
@@ -22,6 +22,7 @@ function Cart({ handleCart, data, deleteProductCart }) {
                         <div className='row d-flex m-auto'>
                             {cartProducts.length && <h2 className="text-light">Total: {totalCart}</h2>}
                             <a className='btn btn-primary' href={send} ><img width={50} src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="" />Enviar Pedido</a>
+                            <p className='text-light'>los pedidos se entregan apartir del { fecha.date} </p>
                         </div>
                         
                         :
