@@ -5,7 +5,7 @@
     "name":"Cremon comun",
     "weight":"500 g",
     "variety":[""],
-    "price":"$ 2800",
+    "price":"$ 2400",
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/806763-800-600?v=638403385086900000&width=800&height=600&aspect=true"
@@ -17,7 +17,7 @@
     "name":"Cremon Doble",
     "weight":"500 g",
     "variety":[""],
-    "price":"$ 2800",
+    "price":"$ 2400",
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/782004-800-600?v=638201073856830000&width=800&height=600&aspect=true"
@@ -29,7 +29,7 @@
     "name":"Cremon Light",
     "weight":"500 g",
     "variety":[""],
-    "price":"$ 3200",
+    "price":"$ 3000",
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/783019-800-600?v=638206690563500000&width=800&height=600&aspect=true"
@@ -41,7 +41,7 @@
     "name":"Por Salut Comun",
     "weight":"500 g",
     "variety":[""],
-    "price":"$ 3200",
+    "price":"$ 3000",
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/585994-800-600?v=637258009050470000&width=800&height=600&aspect=true"
@@ -53,7 +53,7 @@
     "name":"Por Salut Light",
     "weight":"500 g",
     "variety":[""],
-    "price":"$ 3200",
+    "price":"$ 3000",
     "isNew":false,
     "image":[
       "https://d3340tyzmtlo4u.cloudfront.net/users/864/images/detailed/9/La_Seren%C3%ADsima_Queso_Port_Salut_Light,_1_kg__Aprox_.webp"
@@ -65,7 +65,7 @@
     "name":"Por Salut s-sal",
     "weight":"500 g",
     "variety":[""],
-    "price":"$ 3200",
+    "price":"$ 3000",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012918.jpg?3.0.165"
@@ -101,7 +101,7 @@
     "name":"Sardo La Ser..",
     "weight":"250 g",
     "variety":[""],
-    "price":"$ 2800",
+    "price":"$ 2400",
     "isNew":false,
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/782041-800-600?v=638201074031270000&width=800&height=600&aspect=true"
