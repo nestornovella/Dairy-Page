@@ -30,7 +30,7 @@ function Search({ callback }) {
                     <div className="row enviosLogo">
                         <img src={enviosLogo} alt="" />
                     </div>
-                </div>
+                    </div>
             </div>
         </div>
     );
