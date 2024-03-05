@@ -88,11 +88,7 @@ background: linear-gradient(90deg, rgba(198,34,113,1) 0%, rgba(63,155,251,1) 100
 }
 
 .active {
-    opacity: 0.9;
-    border: rgb(11, 10, 10) solid 1px;
-
-
-
+  transition: all 0.5s !important;
 }
 
 

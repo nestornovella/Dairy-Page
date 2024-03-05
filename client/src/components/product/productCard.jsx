@@ -45,11 +45,8 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
             })
             showAlert()
             verifyShowProd()
-            
             console.log('entro aca')
         }
-
-
     }
 
     function showAlert() {
@@ -75,9 +72,6 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
         setShow(false)
     }, [prod])
 
-
-
-
     return (
         <div className="col-xl-4 small col-sm-12 cardContainer"  >
             {isNew && <img className='newImage' src="https://www.desab.com.ar/wp-content/uploads/2020/11/producto-nuevo-png-1-300x297.png" alt="" />}
@@ -102,7 +96,6 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 {alertShow && added && <AlertProduct value={alertValue} />}
