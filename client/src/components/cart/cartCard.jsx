@@ -26,10 +26,10 @@ function CartCard({agregarPedido, variety, selected, id, image, name, price }) {
             <tr >
                 <td><img width={60} src={image[selected]} alt="" /></td>
                 <td><p className="text-secondary textCart" style={{marginTop:'10px'}}>{variety ? `${name} ${variety[selected]}` : name}</p></td>
-                <td><button onClick={restUnits} className=" " style={{border:'none', background:'transparent'}}><img width={35} src={sumar} alt="" /></button></td>
+                <td><button style={{width:"35px"}} onClick={restUnits} className="btn btn-dark rounded-5">-</button></td>
                 <td><p className="text-secondary textCart" style={{marginTop:'10px'}}>Cant: <span>{units}</span></p></td>
-                <td><button onClick={addUnist} className=" " style={{border:'none', background:'transparent'}}><img width={35} src={restar} alt="" /></button></td>
-                <td><button onClick={()=>dispatch(deleteProduct(id+selected))} className="btn  rounded-4"><img width={30}src="https://cdn-icons-png.flaticon.com/512/7347/7347206.png" alt="" /></button></td>
+                <td><button style={{width:"35px"}} onClick={addUnist} className="btn btn-dark rounded-5">+</button></td>
+                <td><button  onClick={()=>dispatch(deleteProduct(id+selected))} className="btn btn- rounded-4"><img width={30}src="https://cdn-icons-png.flaticon.com/512/7347/7347206.png" alt="" /></button></td>
             </tr>
            
          
