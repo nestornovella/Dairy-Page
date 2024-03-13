@@ -110,9 +110,9 @@
   },
   {
     "id":"xz5XD64x665c5t36yyC",
-    "name":"Dambo Fetas",
+    "name":"Fetas",
     "weight":"150 g",
-    "variety":[""],
+    "variety":["Dambo"],
     "price":"$ 1800",
     "isNew":false,
     "image":[
@@ -122,13 +122,13 @@
   },
   {
     "id":"3yc6Z7X51Y4D1Dy7Dtz",
-    "name":"Chedar Fetas",
+    "name":"Fetas",
     "weight":"150 g",
-    "variety":[""],
+    "variety":["Chedar"],
     "price":"$ 1800",
     "isNew":false,
     "image":[
-      "https://jumboargentina.vtexassets.com/arquivos/ids/782022-800-600?v=638201073938200000&width=800&height=600&aspect=true"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00493100/00493133.jpg?3.0.168"
     ],
     "active":true
   },
