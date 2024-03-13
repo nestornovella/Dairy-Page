@@ -2,73 +2,73 @@
 [
   {
     "id":"62XTy4142cC64dT6z17",
-    "name":"Cremon comun",
+    "name":"Cremon",
     "weight":"500 g",
-    "variety":[""],
+    "variety":["comun"],
     "price":"$ 2400",
     "isNew":false,
     "image":[
-      "https://jumboargentina.vtexassets.com/arquivos/ids/806763-800-600?v=638403385086900000&width=800&height=600&aspect=true"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00013500/00013507.jpg?3.0.168"
     ],
     "active":true
   },
   {
     "id":"7xtc7Td2Yyyd7zZc1yz",
-    "name":"Cremon Doble",
+    "name":"Cremon",
     "weight":"500 g",
-    "variety":[""],
+    "variety":["Doble"],
     "price":"$ 2400",
     "isNew":false,
     "image":[
-      "https://jumboargentina.vtexassets.com/arquivos/ids/782004-800-600?v=638201073856830000&width=800&height=600&aspect=true"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00047700/00047711.jpg?3.0.168"
     ],
     "active":true
   },
   {
     "id":"CcCDyTZT4231cD1X5YT",
-    "name":"Cremon Light",
+    "name":"Cremon ",
     "weight":"500 g",
-    "variety":[""],
+    "variety":["Light"],
     "price":"$ 3000",
     "isNew":false,
     "image":[
-      "https://jumboargentina.vtexassets.com/arquivos/ids/783019-800-600?v=638206690563500000&width=800&height=600&aspect=true"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00010400/00010410.jpg?3.0.168"
     ],
     "active":true
   },
   {
     "id":"x6353Cz67zyy3CT46Xc",
-    "name":"Por Salut Comun",
+    "name":"Por Salut",
     "weight":"500 g",
-    "variety":[""],
+    "variety":["Comun"],
     "price":"$ 3000",
     "isNew":false,
     "image":[
-      "https://jumboargentina.vtexassets.com/arquivos/ids/585994-800-600?v=637258009050470000&width=800&height=600&aspect=true"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012915.jpg?3.0.168"
     ],
     "active":true
   },
   {
     "id":"Yd3zCcDcx45ZC5dTzd1",
-    "name":"Por Salut Light",
+    "name":"Por Salut",
     "weight":"500 g",
-    "variety":[""],
+    "variety":["Light"],
     "price":"$ 3000",
     "isNew":false,
     "image":[
-      "https://d3340tyzmtlo4u.cloudfront.net/users/864/images/detailed/9/La_Seren%C3%ADsima_Queso_Port_Salut_Light,_1_kg__Aprox_.webp"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012917.jpg?3.0.168"
     ],
     "active":true
   },
   {
     "id":"3t5T7dTtX1xYXZD3zd1",
-    "name":"Por Salut s-sal",
+    "name":"Por Salut",
     "weight":"500 g",
-    "variety":[""],
+    "variety":["S-Sal"],
     "price":"$ 3000",
     "isNew":false,
     "image":[
-      "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012918.jpg?3.0.165"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012918.jpg?3.0.168"
     ],
     "active":true
   },
@@ -80,7 +80,7 @@
     "price":"$ 3500",
     "isNew":false,
     "image":[
-      "https://jumboargentina.vtexassets.com/arquivos/ids/596817-800-600?v=637321944218600000&width=800&height=600&aspect=true"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00013500/00013515.jpg?3.0.168"
     ],
     "active":true
   },
