@@ -19,7 +19,7 @@ function Search({ callback }) {
     return (
         <div className="row d-flex justify-content-center mt-3 mb-0" >
             <div className="row mb-5 d-flex justify-content-center initialLogo">
-                <img style={{ maxWidth: "500px" }} src="https://vendiendoofertas.files.wordpress.com/2016/07/logo-vendiendo-ofertas-fondo-transparente1.png" alt="" />
+                <img style={{ maxWidth: "500px", marginBottom:"100px" }} src="https://220121df7a.cbaul-cdnwnd.com/6d42b70894575c32cbf502f7d4d6f42f/200000014-1bcab1cc29/1.png?ph=220121df7a" alt="" />
             </div>
             <div className="col-sm-12 col-xl-9  p-3 rounded-4 barraBusquedaContainer" >
                 <div className="form-group barraBusqueda">
