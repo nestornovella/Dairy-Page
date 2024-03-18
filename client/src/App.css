@@ -11,12 +11,14 @@ body {
     text-align: center;
     font-size: 20px;
     width: 99.8vw !important;
-    
+    position: relative;
+    z-index: 200;
    
 }
 .fechaEntregaContainer p{
     background-color: #2488BA;
     width: 100vw !important;
+    
 }
 /* Busqueda */
 .barraBusquedaContainer {
@@ -34,6 +36,7 @@ background: linear-gradient(90deg, rgba(198,34,113,1) 0%, rgba(63,155,251,1) 100
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 }
 
 .barraBusqueda input {
