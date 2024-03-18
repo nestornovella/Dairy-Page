@@ -60,6 +60,7 @@
     ],
     "active":true
   },
+ 
   {
     "id":"yD3ytC4DcZZz2y5T6cD",
     "name":"Rexona H",
@@ -73,6 +74,33 @@
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00572000/00572064.jpg?3.0.165",
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00572000/00572053.jpg?3.0.165",
       "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/5a38f6614905178fa07804facc7b33a0/3/9/3980_2023-11-06_13_07_14_2.png"
+    ],
+    "active":true
+  },
+  {
+    "id":"7xxYy5dZycx24466XXt23",
+    "name":"Old Sp",
+    "weight":"150 Cc",
+    "variety":["Fresh", "Leña"],
+    "price":"$ 3500",
+    "isNew":true,
+    "image":[
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00293500/00293506.jpg?3.0.168",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00460700/00460704.jpg?3.0.168"
+    ],
+    "active":true
+  },
+  {
+    "id":"CXC1CTcdTD344R3212",
+    "name":"Old Sp",
+    "weight":"50 g",
+    "variety":["Wolf","Show T", "Fresh"],
+    "price":"$3500",
+    "isNew":true,
+    "image":[
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00267000/00267038.jpg?3.0.168",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00492200/00492260.jpg?3.0.168",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00491100/00491142.jpg?3.0.168"
     ],
     "active":true
   },
@@ -109,6 +137,38 @@
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00559300/00559376.jpg?3.0.165"
+    ],
+    "active":true
+  },
+  {
+    "id":"x365ZtyyC61xTtt4Yuer",
+    "name":"Pant",
+    "weight":"200 ml",
+    "variety":["Detox","Colageno","Hid y Fort", "Raiz y Pun", "Volumeniz"],
+    "price":"$ 2500",
+    "isNew":true,
+    "image":[
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00571000/00571040.jpg?3.0.168",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00542700/00542700.jpg?3.0.168",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00565200/00565273.jpg?3.0.168",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00570300/00570300.jpg?3.0.168"
+      ,"https://static.cotodigital3.com.ar/sitios/fotos/full/00580300/00580320.jpg?3.0.168"
+    ],
+    "active":true
+  },
+  {
+    "id":"x365ZtyyC61xTtt44823",
+    "name":"Pant Ac",
+    "weight":"200 ml",
+    "variety":["Detox","Colageno", "Hid y Fort", "Raiz y Pun", "Volumeniz"],
+    "price":"$ 2500",
+    "isNew":true,
+    "image":[
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00570300/00570302.jpg?3.0.168",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00542600/00542693.jpg?3.0.168",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00565200/00565275.jpg?3.0.168",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00570300/00570301.jpg?3.0.168"
+      ,"https://static.cotodigital3.com.ar/sitios/fotos/full/00580300/00580323.jpg?3.0.168"
     ],
     "active":true
   },
@@ -265,7 +325,7 @@
     "price":"$ 2000",
     "isNew":false,
     "image":[
-      "https://www.vassallo.com.ar/13621-large_default/crema-corporal-en-lata-nivea-creme-x-150-ml.jpg"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00004300/00004338.jpg?3.0.168"
     ],
     "active":true
   },
