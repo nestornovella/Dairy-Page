@@ -3,6 +3,7 @@ import { actionTypes } from "../actions/actions";
 
 const initailState = {
     cart: [],
+    discount:0,
     totalCart: 0,
     handleCart: false
 }
@@ -40,11 +41,17 @@ function rootReducer(state = initailState, actions) {
                 ...state,
                 totalCart: actions.payload
             }
+            case actionTypes.SET_DISCOUNT:
+                return {
+                    ...state,
+                    discount: actions.payload
+                }
         case actionTypes.UPDATE_UNITS_TOTAL:
 
             const cartChanged = [...state.cart].map(e => {
+                console.log(actions.payload, "acciones")
                 if((e.name + e.selected) == (actions.payload.name + actions.payload.selected)){
-                    return {...e, cantidad: actions.payload.cantidad, subTotal: actions.payload.subTotal}
+                    return {...e, cantidad: actions.payload.cantidad, subTotal: actions.payload.subTotal, totalDisc:actions.payload.totalDisc.total}
                 }else return e
             })
             return {

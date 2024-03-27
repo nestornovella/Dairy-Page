@@ -4,7 +4,8 @@ export const actionTypes ={
     ADD_TO_CART:'ADD_TO_CART',
     DELETE_PRODUCT:'DELETE_PRODUCT',
     SET_TOTAL:'SET_TOTAL',
-    UPDATE_UNITS_TOTAL:'UPDATE_UNITS_TOTAL'
+    UPDATE_UNITS_TOTAL:'UPDATE_UNITS_TOTAL',
+    SET_DISCOUNT:'SET_DISCOUNT'
 }
 
 
@@ -47,6 +48,13 @@ export function updateUnitsTotal(valuesObject){
 export function setTotal(totalValue){
     return {
         type: actionTypes.SET_TOTAL,
+        payload: totalValue
+    }
+}
+
+export function setDiscount(totalValue){
+    return {
+        type: actionTypes.SET_DISCOUNT,
         payload: totalValue
     }
 }

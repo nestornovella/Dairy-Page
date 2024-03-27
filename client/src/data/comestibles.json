@@ -10,7 +10,12 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00013500/00013507.jpg?3.0.168"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"7xtc7Td2Yyyd7zZc1yz",
@@ -22,7 +27,12 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00047700/00047711.jpg?3.0.168"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"CcCDyTZT4231cD1X5YT",
@@ -34,7 +44,12 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00010400/00010410.jpg?3.0.168"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"x6353Cz67zyy3CT46Xc",
@@ -46,7 +61,12 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012915.jpg?3.0.168"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"Yd3zCcDcx45ZC5dTzd1",
@@ -58,7 +78,12 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012917.jpg?3.0.168"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"3t5T7dTtX1xYXZD3zd1",
@@ -70,7 +95,12 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012918.jpg?3.0.168"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"5dx3Xyt47576X74DYCc",
@@ -82,7 +112,12 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00013500/00013515.jpg?3.0.168"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"zx2CdXt25c6t4txYTDy",
@@ -94,7 +129,12 @@
     "image":[
       "https://www.cusumano.com.ar/wp-content/uploads/2022/05/Muzza-Barraza-500g.jpg"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"1C71y5cDC13C1D2Cd4Y",
@@ -106,7 +146,12 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00013300/00013306.jpg?3.0.168"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"xz5XD64x665c5t36yyC",
@@ -118,7 +163,12 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00493100/00493121.jpg?3.0.168"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"3yc6Z7X51Y4D1Dy7Dtz",
@@ -130,7 +180,12 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00493100/00493133.jpg?3.0.168"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"D3Tt7tYXDzcyZ6y6YcZ",
@@ -142,7 +197,12 @@
     "image":[
       "https://acdn.mitiendanube.com/stores/242/196/products/pldn_imageneshero-feteadosorig-jamoncocido1-8ae21c65df64c241aa16475528655412-640-0.jpg"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"6ycxXx74dc3d5271Tcz",
@@ -154,7 +214,12 @@
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/791551-800-600?v=638288445667230000&width=800&height=600&aspect=true"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"yYy77D2c5Y65d3X5ddZ",
@@ -166,7 +231,12 @@
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/791552-800-600?v=638288445670500000&width=800&height=600&aspect=true"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"CdX7t35C51XxCtYZD5y",
@@ -178,7 +248,12 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00535400/00535413.jpg?3.0.168"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
   {
     "id":"TdZc331XytdXDt223X3",
@@ -190,6 +265,11 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00535400/00535414.jpg?3.0.168"
     ],
-    "active":true
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   }
 ]

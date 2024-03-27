@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect, useRef, useState } from 'react';
 import { addToCart } from '../../redux/actions/actions';
 import AlertProduct from './alertProduct';
+import OfertaAnuncio from './ofertaAnuncio';
 
 
 function ProductCard({ prod, price, weight, name, image, isNew }) {
@@ -112,6 +113,13 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
                     </ul>
                 </div>}
             </div>
+            {
+            prod.discount.active &&
+              <div>
+                <OfertaAnuncio discount={prod.discount}/>
+            </div>  
+            }
+            
         </div>
     );
 }
