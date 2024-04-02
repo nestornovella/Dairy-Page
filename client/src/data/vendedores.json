@@ -10,5 +10,11 @@
         "comestiblePorcent":30,
         "noComestiblePorcent":25,
         "phoneNumber":"+541126405527"
+    },
+    {
+        "name":"dayMarg",
+        "comestiblePorcent":30,
+        "noComestiblePorcent":25,
+        "phoneNumber":"+540111528841434"
     }
 ]
