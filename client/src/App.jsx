@@ -21,17 +21,17 @@ function App() {
   const queyParams = new URLSearchParams(location.search)
   const queyParams2 = new URLSearchParams(location.search)
 
-  const seller = queyParams.get("seller")
+  const seller = queyParams.get("seller") || ''
   const phoneNumber = queyParams2.get("number")
   const dispatch = useDispatch()
-  
+
   console.log(seller, 'xxx')
   useSendData()
 
-  useEffect(()=>{
+  useEffect(() => {
     dispatch(setSeller(seller))
     dispatch(setSellerNumber(phoneNumber))
-  },[])
+  }, [])
 
   useEffect(() => {
     if (category === 'lacteos') {
@@ -83,10 +83,18 @@ function App() {
     <>
       <Entrega />
       <div className="container">
-        <CartHandler deleteProductCart={deleteProductCart} pedido={pedido} />
-        <Search callback={search} />
-        <CategorySection current={category} newProducts={newProducts} lacteos={lacteos} perfumeria={perfumeria} />
-        <ProductSection addProduct={addToCart} category={category} data={data} />
+        {
+          seller &&
+          <>
+            <CartHandler deleteProductCart={deleteProductCart} pedido={pedido} />
+            <Search callback={search} />
+            <CategorySection current={category} newProducts={newProducts} lacteos={lacteos} perfumeria={perfumeria} />
+            <ProductSection addProduct={addToCart} category={category} data={data} />
+          </>
+
+        }
+
+
       </div>
     </>
 
