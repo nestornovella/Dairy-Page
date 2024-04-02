@@ -84,13 +84,15 @@ function App() {
       <Entrega />
       <div className="container">
         {
-          seller &&
+          seller ?
           <>
             <CartHandler deleteProductCart={deleteProductCart} pedido={pedido} />
             <Search callback={search} />
             <CategorySection current={category} newProducts={newProducts} lacteos={lacteos} perfumeria={perfumeria} />
             <ProductSection addProduct={addToCart} category={category} data={data} />
           </>
+          :
+          <img src="https://ouch-cdn2.icons8.com/AJmx6KGJa1nR6XZCFa2FYeRDUG4GiKDJoFoSBKd1rU8/rs:fit:456:456/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvMzE4/L2M2MTk5YjIxLTI4/MDctNDZmYS1hMTVk/LWQyZTBkNGI1NGU2/NC5zdmc.png" alt="" />
 
         }
 
