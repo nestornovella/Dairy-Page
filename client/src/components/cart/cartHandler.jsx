@@ -18,7 +18,6 @@ function CartHandler({ pedido, deleteProductCart }) {
         } else {
             handler.current.className = "row dontShowCart"
         }
-        console.log(handler.current)
     }, [showCart])
 
     function handleCart() {
@@ -28,10 +27,9 @@ function CartHandler({ pedido, deleteProductCart }) {
     useEffect(()=>{
         
             setUpdated(true)
-            console.log(updated)
             setTimeout(()=>{
             setUpdated(false)
-            console.log(updated)
+           
         },600)
     },[cart])
 

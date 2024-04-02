@@ -4,25 +4,35 @@ import CartRender from './cartRender';
 import useSendData from '../../hooks/templateWhatsapp';
 import fecha from "../../data/fechaDeEntrega.json"
 import sellersList from "../../data/vendedores.json"
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+
 
 function Cart({ handleCart, data, deleteProductCart }) {
-    
-    const seller = useSelector(store => store.seller)
-    const phoneNumber = useSelector( store => store.phoneNumber)
 
+    const [wappLink, setWappLink] = useState('')
+
+    const sellerName = useSelector(store => store.seller) || ''
+    const sellerUser = sellersList.filter(e => e.name.includes(sellerName))
+
+    console.log(sellerUser)
 
     
     const cartProducts = useSelector(store => store.cart)
     const totalCart = useSelector(store => store.totalCart)
     const discount = useSelector(store => store.discount)
-    let send = `https://api.whatsapp.com/send?phone=+${phoneNumber}&text=${useSendData()}`
-    console.log("phone number: ", send)
+    const dataText = useSendData()
+
+  
+    useEffect(()=>{
+        if(sellerUser.length == 1){
+            const seller = sellerUser[0]
+            setWappLink(`https://api.whatsapp.com/send?phone=${seller.phoneNumber}&text=${dataText}`)
+        }
+    },[dataText, sellerUser])
 
 
     
 
-    console.log(discount)
     return (
         <div className="cartContainer container">
             <div onClick={handleCart} className="row"><button className='btn p-3' style={{ backgroundColor: '#C62271', color: "white", fontWeight: "900" }}>Cerrar</button></div>
@@ -42,7 +52,7 @@ function Cart({ handleCart, data, deleteProductCart }) {
                                 </>
 
                             }
-                            <a className='btn btn-primary' href={send} ><img width={50} src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="" />Enviar Pedido</a>
+                            <a className='btn btn-primary' href={wappLink} ><img width={50} src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="" />Enviar Pedido</a>
                             <p className='text-light'>los pedidos se entregan apartir del {fecha.date} </p>
                         </div>
 

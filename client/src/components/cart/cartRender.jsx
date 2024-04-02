@@ -11,7 +11,7 @@ function CartRender({ deleteProductCart }) {
     
 
    
-    console.log(cart, "cart====")
+
    
     useEffect(()=>{
         if(cart.length){

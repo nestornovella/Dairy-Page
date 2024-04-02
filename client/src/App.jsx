@@ -19,18 +19,15 @@ function App() {
   const [pedido, setPedido] = useState([])
   const location = useLocation()
   const queyParams = new URLSearchParams(location.search)
-  const queyParams2 = new URLSearchParams(location.search)
+ 
 
   const seller = queyParams.get("seller") || ''
-  const phoneNumber = queyParams2.get("number")
   const dispatch = useDispatch()
-
-  console.log(seller, 'xxx')
+  
   useSendData()
 
   useEffect(() => {
     dispatch(setSeller(seller))
-    dispatch(setSellerNumber(phoneNumber))
   }, [])
 
   useEffect(() => {

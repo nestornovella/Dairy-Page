@@ -23,8 +23,6 @@ function ProductSection({data, addProduct, category}) {
     return ( 
         <section className="row d-flex rounded-4 my-5  d-flex justify-content-center">
            {data && data.map((prod, index )=> {
-            console.log('--', porcent)
-            console.log("$ " + prod.price.slice(1).trim() * porcent)
             return <ProductCard addProduct={addProduct} prod={{...prod, price:"$ " + ((prod.price.slice(1).trim() * porcent ) / 100 + parseInt(prod.price.slice(1).trim()))}} key={index} isNew={prod.isNew} image={prod.image} name={prod.name} 
             price={"$ " + ((prod.price.slice(1).trim() * porcent ) / 100 + parseInt(prod.price.slice(1).trim())) } weight={prod.weight}/>
            })}
