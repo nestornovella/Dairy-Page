@@ -5,10 +5,27 @@ export const actionTypes ={
     DELETE_PRODUCT:'DELETE_PRODUCT',
     SET_TOTAL:'SET_TOTAL',
     UPDATE_UNITS_TOTAL:'UPDATE_UNITS_TOTAL',
-    SET_DISCOUNT:'SET_DISCOUNT'
+    SET_DISCOUNT:'SET_DISCOUNT',
+    SET_SELLER:'SET_SELLER',
+    SET_SELLER_NUMBER:'SET_SELLER_NUMBER'
+
+
 }
 
 
+
+export function setSeller(seller){
+    return {
+        type:actionTypes.SET_SELLER,
+        payload:seller
+    }
+}
+export function setSellerNumber(sellerNumber){
+    return {
+        type:actionTypes.SET_SELLER_NUMBER,
+        payload: sellerNumber
+    }
+}
 
 export function changeCartStatus(){
     return {

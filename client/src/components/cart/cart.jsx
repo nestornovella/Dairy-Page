@@ -3,15 +3,24 @@ import './../../App.css';
 import CartRender from './cartRender';
 import useSendData from '../../hooks/templateWhatsapp';
 import fecha from "../../data/fechaDeEntrega.json"
-
-
+import sellersList from "../../data/vendedores.json"
+import { useEffect } from 'react';
 
 function Cart({ handleCart, data, deleteProductCart }) {
+    
+    const seller = useSelector(store => store.seller)
+    const phoneNumber = useSelector( store => store.phoneNumber)
 
+
+    
     const cartProducts = useSelector(store => store.cart)
     const totalCart = useSelector(store => store.totalCart)
-    const discount = useSelector( store => store.discount)
-    const send = `https://api.whatsapp.com/send?phone=+541125420570&text=${useSendData()}`
+    const discount = useSelector(store => store.discount)
+    let send = `https://api.whatsapp.com/send?phone=+${phoneNumber}&text=${useSendData()}`
+    console.log("phone number: ", send)
+
+
+    
 
     console.log(discount)
     return (
@@ -25,10 +34,10 @@ function Cart({ handleCart, data, deleteProductCart }) {
                         <div className='row d-flex m-auto'>
                             {cartProducts.length &&
                                 <>
-                                
+
                                     {discount ? <div className='d-flex '><h2 className="text-secondary totalTachado">Total: {totalCart} </h2> <h2 className='text-light mx-5'>Total: {totalCart - discount}</h2></div>
-                                    :<h2 className="text-light">Total: {totalCart}</h2>    
-                                }
+                                        : <h2 className="text-light">Total: {totalCart}</h2>
+                                    }
                                     <h2 className='text-danger'>Descuento: -{discount} </h2>
                                 </>
 

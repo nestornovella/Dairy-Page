@@ -5,7 +5,9 @@ const initailState = {
     cart: [],
     discount:0,
     totalCart: 0,
-    handleCart: false
+    handleCart: false,
+    seller:'',
+    phoneNumber:''
 }
 
 function rootReducer(state = initailState, actions) {
@@ -58,7 +60,16 @@ function rootReducer(state = initailState, actions) {
                 ...state,
                 cart: cartChanged
             }
-
+        case actionTypes.SET_SELLER:
+            return {
+                ...state,
+                seller: actions.payload
+            }
+        case actionTypes.SET_SELLER_NUMBER:
+            return {
+                ...state,
+                phoneNumber: actions.payload
+            }
         default:
             return state;
     }

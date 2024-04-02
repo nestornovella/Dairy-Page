@@ -1,0 +1,14 @@
+[
+    {
+        "name":"carlaFer",
+        "comestiblePorcent":0,
+        "noComestiblePorcent":0,
+        "phoneNumber":"+541125420570"
+    },
+    {
+        "name":"micaFer",
+        "comestiblePorcent":30,
+        "noComestiblePorcent":25,
+        "phoneNumber":"+541126405527"
+    }
+]

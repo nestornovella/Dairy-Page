@@ -9,14 +9,29 @@ import noComestibles from "./data/noComestibles.json"
 import CartHandler from './components/cart/cartHandler';
 import useSendData from './hooks/templateWhatsapp';
 import Entrega from './components/fechaDeEntrega';
-
+import { useLocation } from 'react-router-dom'
+import { useDispatch } from 'react-redux';
+import { setSeller, setSellerNumber } from './redux/actions/actions';
 
 function App() {
   const [data, setData] = useState([])
   const [category, setCategory] = useState("lacteos")
   const [pedido, setPedido] = useState([])
+  const location = useLocation()
+  const queyParams = new URLSearchParams(location.search)
+  const queyParams2 = new URLSearchParams(location.search)
 
+  const seller = queyParams.get("seller")
+  const phoneNumber = queyParams2.get("number")
+  const dispatch = useDispatch()
+  
+  console.log(seller, 'xxx')
   useSendData()
+
+  useEffect(()=>{
+    dispatch(setSeller(seller))
+    dispatch(setSellerNumber(phoneNumber))
+  },[])
 
   useEffect(() => {
     if (category === 'lacteos') {
@@ -71,7 +86,7 @@ function App() {
         <CartHandler deleteProductCart={deleteProductCart} pedido={pedido} />
         <Search callback={search} />
         <CategorySection current={category} newProducts={newProducts} lacteos={lacteos} perfumeria={perfumeria} />
-        <ProductSection addProduct={addToCart} data={data} />
+        <ProductSection addProduct={addToCart} category={category} data={data} />
       </div>
     </>
 
