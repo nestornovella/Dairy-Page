@@ -478,7 +478,7 @@
     ],
     "active":true,
     "discount":{
-      "active":false,
+      "active":true,
       "type":"cuantity",
       "disc":[6, 5]
     }
