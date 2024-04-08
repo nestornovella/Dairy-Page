@@ -6,6 +6,7 @@ import ProductSection from './components/product/productSection';
 import { useEffect, useState } from 'react';
 import comestibles from "./data/comestibles.json"
 import noComestibles from "./data/noComestibles.json"
+import sellerList from "./data/vendedores.json"
 import CartHandler from './components/cart/cartHandler';
 import useSendData from './hooks/templateWhatsapp';
 import Entrega from './components/fechaDeEntrega';
@@ -29,6 +30,8 @@ function App() {
   useEffect(() => {
     dispatch(setSeller(seller))
   }, [])
+
+  const sellerActive = sellerList.filter(e => e.name == seller)
 
   useEffect(() => {
     if (category === 'lacteos') {
@@ -66,7 +69,7 @@ function App() {
 
   function addToCart(product) {
     let found = false
-    pedido.forEach(prod => prod.name === product.name ? found = true : "")
+    pedido.forEach(prod => prod.name === product.name ? found = true : "") || []
 
     !found &&
       setPedido(prev => [...prev, product])
@@ -81,7 +84,7 @@ function App() {
       <Entrega />
       <div className="container">
         {
-          seller ?
+          sellerActive.length ?
           <>
             <CartHandler deleteProductCart={deleteProductCart} pedido={pedido} />
             <Search callback={search} />
