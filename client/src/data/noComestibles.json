@@ -479,8 +479,8 @@
     "active":true,
     "discount":{
       "active":false,
-      "type":"porcent",
-      "disc": 10
+      "type":"cuantity",
+      "disc":[6, 5]
     }
   },
   {
@@ -496,8 +496,8 @@
     "active":true,
     "discount":{
       "active":true,
-      "type":"porcent",
-      "disc":10
+      "type":"cuantity",
+      "disc":[6, 5]
     }
   },
   {
@@ -513,9 +513,8 @@
     "active":true,
     "discount":{
       "active":true,
-      "type":"porcent",
-      "disc": 10
-    }
+      "type":"cuantity",
+      "disc":[6, 5]
   },
   {
     "id":"zdt1cT1xDx4YCd634c7",
@@ -527,7 +526,7 @@
     "image":[
       "https://http2.mlstatic.com/D_NQ_NP_2X_962598-MLA73734148699_122023-F.webp"
     ],
-    "active":true,
+    "active":false,
     "discount":{
       "active":false,
       "type":"cuantity",
