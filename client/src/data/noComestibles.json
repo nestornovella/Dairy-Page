@@ -527,7 +527,7 @@
     "image":[
       "https://http2.mlstatic.com/D_NQ_NP_2X_962598-MLA73734148699_122023-F.webp"
     ],
-    "active":false,
+    "active":true,
     "discount":{
       "active":false,
       "type":"cuantity",
