@@ -102,7 +102,7 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
                 {alertShow && added && <AlertProduct value={alertValue} />}
             </div>
             <div>
-                {prod.variety.length > 1 && <div className="dropdown selectVarity">
+                { prod.variety.length > 1 && <div className="dropdown selectVarity">
                     <button onClick={handleShow} className="p-1 btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         variedad
                     </button>
