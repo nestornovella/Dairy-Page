@@ -509,7 +509,7 @@
   },
   {
     "id": "x6zZ7ZCy3Zx5y6Xx7X7",
-    "name": "Isue Saloon IR",
+    "name": "Isue Saloon IRR",
     "weight": "110 ml",
     "variety": [
       ""
@@ -519,7 +519,7 @@
     "image": [
       "https://carrefourar.vtexassets.com/arquivos/ids/314143/7793008010562_02.jpg?v=638174183749000000"
     ],
-    "active": true,
+    "active": false,
     "discount": {
       "active": false,
       "type": "cuantity",
