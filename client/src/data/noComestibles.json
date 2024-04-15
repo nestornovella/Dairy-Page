@@ -291,15 +291,23 @@
   },
   {
     "id": "2ctcZX7d4CtdXzXTtZ1",
-    "name": "shampoo Elvive",
+    "name": "Elvive Sh",
     "weight": "200 ml",
     "variety": [
-      ""
+      "Reparacion","Hidratacion", "Kera-Liso", "Color-Vive", "Oleo-Ext", "Arcilla-Pur", "Long-Liss", "Hidra-Purif", "Matizador"
     ],
     "price": "$ 1600",
     "isNew": false,
     "image": [
-      "https://dcdn.mitiendanube.com/stores/001/220/411/products/shampoo-baby-yoda-781-c945f79daa6c87f3a016775378452133-640-0.png"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00255100/00255153.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00570300/00570341.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00568500/00568510.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00568500/00568501.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00531000/00531033.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00531000/00531018.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00492600/00492619.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00566900/00566997.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00541500/00541536.jpg?3.0.169"
     ],
     "active": true,
     "discount": {
@@ -313,15 +321,23 @@
   },
   {
     "id": "4C51z675x3tcDdy2671",
-    "name": "Acond. Elvive",
+    "name": "Elvive Ac",
     "weight": "200 ml",
     "variety": [
-      ""
+      "Reparacion","Hidratacion", "Kera-Liso", "Color-Vive", "Oleo-Ext", "Arcilla-Pur", "Long-Liss", "Hidra-Purif", "Matizador"
     ],
     "price": "$ 1600",
     "isNew": false,
     "image": [
-      "https://dcdn.mitiendanube.com/stores/001/220/411/products/shampoo-baby-yoda-791-0a0e7ccf9c312e731f16775445622867-640-0.png"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00253900/00253915.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00567000/00567003.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00538400/00538424.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00568400/00568497.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00580500/00580539.jpg?3.0.169",
+      "https://farmaonline.vtexassets.com/arquivos/ids/1183156-1600-1600?v=638486737869030000&width=1600&height=1600&aspect=true",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00531000/00531023.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00568400/00568495.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00541500/00541537.jpg?3.0.169"
     ],
     "active": true,
     "discount": {
@@ -357,14 +373,16 @@
   },
   {
     "id": "tDc7Txyd3zDx63dCz77",
-    "name": "Shampoo dove",
+    "name": "Dove Sh",
     "weight": "200 ml",
     "variety": [
-      ""
+      "Reconstruccion", "Nutricion", "Regeneracion"
     ],
     "price": "$ 1600",
     "image": [
-      "https://www.rimoldimayorista.com.ar/datos/uploads/mod_catalogo/31308/dove-sh-400ml-6064a216d7a53.jpg"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00560500/00560544.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00560500/00560535.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00560500/00560543.jpg?3.0.169"
     ],
     "active": true,
     "discount": {
@@ -378,15 +396,17 @@
   },
   {
     "id": "X624YX3x5Z7t3yT1zZ4",
-    "name": "Acond. dove",
+    "name": "Dove Ac",
     "weight": "200 ml",
     "variety": [
-      ""
+      "Reconstruccion", "Nutricion", "Regeneracion"
     ],
     "price": "$ 1600",
     "isNew": false,
     "image": [
-      "https://optimizacionglobal.cl/wp-content/uploads/2022/12/Acondicionador-DOVE-1000-%C3%97-1000-px.jpg"
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00559700/00559744.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00559700/00559745.jpg?3.0.169",
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00559700/00559760.jpg?3.0.169"
     ],
     "active": true,
     "discount": {
