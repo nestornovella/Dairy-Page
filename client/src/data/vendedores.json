@@ -3,18 +3,21 @@
         "name":"carlaFer",
         "comestiblePorcent":0,
         "noComestiblePorcent":0,
-        "phoneNumber":"+541125420570"
+        "phoneNumber":"+541125420570",
+        "showPrice":true
     },
     {
         "name":"micaFer",
         "comestiblePorcent":30,
         "noComestiblePorcent":25,
-        "phoneNumber":"+541126405527"
+        "phoneNumber":"+541126405527",
+        "showPrice":true
     },
     {
         "name":"dayMarg",
         "comestiblePorcent":30,
         "noComestiblePorcent":25,
-        "phoneNumber":"+540111528841434"
+        "phoneNumber":"+540111528841434",
+        "showPrice":false
     }
 ]

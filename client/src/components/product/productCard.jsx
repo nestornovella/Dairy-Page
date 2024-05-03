@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 import { addToCart } from '../../redux/actions/actions';
 import AlertProduct from './alertProduct';
 import OfertaAnuncio from './ofertaAnuncio';
+import sellersList from '../../data/vendedores.json'
 
 
 function ProductCard({ prod, price, weight, name, image, isNew }) {
@@ -17,7 +18,9 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
         color: 'green',
         message: 'Se agrego al carrito'
     })
-
+    const seller = useSelector( store => store.seller)
+    const foundedSeller = sellersList.filter(sel => sel.name.includes(seller))
+  
     const cart = useSelector(store => store.cart)
 
     const alertCard = useRef(null)
@@ -93,7 +96,7 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
                             <div className="row d-flex justify-content-center p-2">
                                 <div className="col-xl-12 d-flex justify-content-around ">
                                     <div type="button" className="btn btn-primary  ">{weight}</div>
-                                    <div type="button" className="btn btn-secondary ">{price}</div>
+                                   {foundedSeller[0].showPrice && <div type="button" className="btn btn-secondary ">{price}</div>}
                                 </div>
                             </div>
                         </div>

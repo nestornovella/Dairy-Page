@@ -42,7 +42,7 @@ function Cart({ handleCart, data, deleteProductCart }) {
                     cartProducts.length
                         ?
                         <div className='row d-flex m-auto'>
-                            {cartProducts.length &&
+                            {cartProducts.length && sellerUser[0].showPrice &&
                                 <>
 
                                     {discount ? <div className='d-flex '><h2 className="text-secondary totalTachado">Total: {totalCart} </h2> <h2 className='text-light mx-5'>Total: {totalCart - discount}</h2></div>
