@@ -1,10 +1,13 @@
 import { useRef } from "react";
 import enviosLogo from "../assets/enviosLogo.png"
-
+import sellerList from "../data/vendedores.json"
+import { useSelector } from 'react-redux'
 
 function Search({ callback }) {
     const inputValue = useRef(null)
-
+    const seller = useSelector(store => store.seller)
+    const sellerSelected = sellerList.filter( sel => sel.name.includes(seller) )
+   
 
     function setValue() {
         callback(inputValue.current.value)
@@ -27,9 +30,9 @@ function Search({ callback }) {
                         className="form-control  mx-2" name="" id="" aria-describedby="helpId" placeholder="" />
                     <button onClick={() => setValue()} type="button" className="btn btn-dark mx-2"><img width={30} src="https://cdn-icons-png.flaticon.com/512/4305/4305549.png" alt="" /></button>
                     <button onClick={() => cleanInput()} type="button" className="btn btn-dark mx-2"><img width={30} src="https://cdn-icons-png.freepik.com/512/3221/3221897.png" alt="" /></button>
-                    <div className="row enviosLogo">
+                    {sellerSelected[0].showPrice && <div className="row enviosLogo">
                         <img src={enviosLogo} alt="" />
-                    </div>
+                    </div>}
                     </div>
             </div>
         </div>
