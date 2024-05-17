@@ -19,5 +19,12 @@
         "noComestiblePorcent":25,
         "phoneNumber":"+540111528841434",
         "showPrice":false
+    },
+    {
+        "name":"solbohn",
+        "comestiblePorcent":30,
+        "noComestiblePorcent":25,
+        "phoneNumber":"+540111554771870",
+        "showPrice":false
     }
 ]
