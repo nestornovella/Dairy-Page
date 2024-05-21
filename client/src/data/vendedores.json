@@ -26,5 +26,12 @@
         "noComestiblePorcent":25,
         "phoneNumber":"+540111554771870",
         "showPrice":false
+    },
+    {
+        "name":"analia",
+        "comestiblePorcent":30,
+        "noComestiblePorcent":25,
+        "phoneNumber":"+540111533521812",
+        "showPrice":true
     }
 ]
