@@ -1,16 +1,9 @@
 import { useSelector } from "react-redux";
 import fecha from "../data/fechaDeEntrega.json"
 import sellerList from '../data/vendedores.json'
+import currentDate from "./parseDate";
 
-const currentDate = () => {
-    const meses = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
-    const currDate = new Date()
-    // quiero obtener el proximo dia lunes
-    const nextMonday = new Date(currDate.setDate(currDate.getDate() + (1 + 7 - currDate.getDay()) % 7));
-    const date = nextMonday.getDate().length > 1 ? nextMonday.getDate() : `0${nextMonday.getDate()}`;
-    const month = meses[nextMonday.getMonth()];
-    return `Lunes ${date} ${month}`
-}
+
 
 function useSendData() {
     const cart = useSelector(store => store.cart);
@@ -32,7 +25,7 @@ function useSendData() {
     });
     template += `%0A-----------------------------------------------------------%0ADescuento: -${totalDiscount}`
     template += `%0A-----------------------------------------------------------%0ATotal: ${totalCart - totalDiscount}`
-    template += `%0A-----------------------------------------------------------%0ASe entrega apartir del Lunes ${fecha.date}`
+    template += `%0A-----------------------------------------------------------%0ASe entrega apartir del Lunes ${currentDate()}`
 
 
     let template2 = `::::::PEDIDO ${actualDate}::::::%0A`
