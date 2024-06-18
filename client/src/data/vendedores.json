@@ -33,5 +33,12 @@
         "noComestiblePorcent":25,
         "phoneNumber":"+540111533521812",
         "showPrice":true
+    },
+    {
+        "name":"graciela",
+        "comestiblePorcent":30,
+        "noComestiblePorcent":20,
+        "phoneNumber":"+540111553010235",
+        "showPrice":true
     }
 ]
