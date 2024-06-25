@@ -40,5 +40,19 @@
         "noComestiblePorcent":20,
         "phoneNumber":"+540111553010235",
         "showPrice":true
+    },
+    {
+        "name":"valentina",
+        "comestiblePorcent":30,
+        "noComestiblePorcent":20,
+        "phoneNumber":"+540111559491001",
+        "showPrice":true
+    },
+    {
+        "name":"walter",
+        "comestiblePorcent":30,
+        "noComestiblePorcent":20,
+        "phoneNumber":"+540111569258214",
+        "showPrice":true
     }
 ]
