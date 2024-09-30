@@ -5,6 +5,7 @@ import useSendData from '../../hooks/templateWhatsapp';
 import fecha from "../../data/fechaDeEntrega.json"
 import sellersList from "../../data/vendedores.json"
 import { useEffect, useState } from 'react';
+import currentDate from '../../hooks/parseDate';
 
 
 function Cart({ handleCart, data, deleteProductCart }) {
@@ -53,7 +54,7 @@ function Cart({ handleCart, data, deleteProductCart }) {
 
                             }
                             <a className='btn btn-primary' href={wappLink} ><img width={50} src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" alt="" />Enviar Pedido</a>
-                            <p className='text-light'>los pedidos se entregan apartir del {fecha.date} </p>
+                            <p className='text-light'>los pedidos se entregan apartir del {currentDate()} </p>
                         </div>
 
                         :

@@ -1,6 +1,9 @@
 import { useSelector } from "react-redux";
 import fecha from "../data/fechaDeEntrega.json"
 import sellerList from '../data/vendedores.json'
+import currentDate from "./parseDate";
+
+
 
 function useSendData() {
     const cart = useSelector(store => store.cart);
@@ -14,6 +17,7 @@ function useSendData() {
 
 
 
+
     let template = `::::::PEDIDO ${actualDate}::::::%0A`;
     cart.forEach(prod => {
         template += ` %0APRODUCTO: ${prod.name} CANTIDAD: ${prod.cantidad} SUBTOTAL: ${prod.subTotal}%0A `;
@@ -21,7 +25,7 @@ function useSendData() {
     });
     template += `%0A-----------------------------------------------------------%0ADescuento: -${totalDiscount}`
     template += `%0A-----------------------------------------------------------%0ATotal: ${totalCart - totalDiscount}`
-    template += `%0A-----------------------------------------------------------%0ASe entrega apartir del Lunes ${fecha.date}`
+    template += `%0A-----------------------------------------------------------%0ASe entrega apartir del Lunes ${currentDate()}`
 
 
     let template2 = `::::::PEDIDO ${actualDate}::::::%0A`
@@ -29,7 +33,7 @@ function useSendData() {
         template2 += ` %0APRODUCTO: ${prod.name} CANTIDAD: ${prod.cantidad}`;
 
     });
-    template2 += `%0A-----------------------------------------------------------%0ASe entrega apartir del Lunes ${fecha.date}`
+    template2 += `%0A-----------------------------------------------------------%0ASe entrega apartir del ${currentDate()}`
 
     return foundedSeller[0].showPrice ? template : template2;
 }
