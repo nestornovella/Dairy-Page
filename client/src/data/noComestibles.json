@@ -453,7 +453,7 @@
     "image": [
       "https://acdn.mitiendanube.com/stores/001/284/054/products/intense_repair_60ml-1-b966fd1e571a5447a017030221147115-1024-1024.jpg"
     ],
-    "active": false,
+    "active": true,
     "discount": {
       "active": true,
       "type": "cuantity",
