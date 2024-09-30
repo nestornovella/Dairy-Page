@@ -11,7 +11,7 @@
       "Pepino",
       "Invisible"
     ],
-    "price": "$ 1400",
+    "price": "$ 2000",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00559700/00559738.jpg?3.0.165",
@@ -40,7 +40,7 @@
       "Verde",
       "Ivisible"
     ],
-    "price": "$ 1400",
+    "price": "$ 2000",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00532800/00532881_g01.jpg",
@@ -69,7 +69,7 @@
       "Cotton",
       "Futbol"
     ],
-    "price": "$ 1400",
+    "price": "$ 2000",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00572000/00572057.jpg?3.0.165",
@@ -100,7 +100,7 @@
       "Invis.",
       "Ant-Bac"
     ],
-    "price": "$ 1400",
+    "price": "$ 2000",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00572000/00572070.jpg?3.0.165",
@@ -186,50 +186,6 @@
     }
   },
   {
-    "id": "czzT3C16D55T31Cz7TX",
-    "name": "Pantene",
-    "weight": "200 ml",
-    "variety": [
-      "Rest."
-    ],
-    "price": "$ 1600",
-    "isNew": false,
-    "image": [
-      "https://static.cotodigital3.com.ar/sitios/fotos/full/00559300/00559376.jpg?3.0.168"
-    ],
-    "active": true,
-    "discount": {
-      "active": false,
-      "type": "cuantity",
-      "disc": [
-        6,
-        5
-      ]
-    }
-  },
-  {
-    "id": "x365ZtyyC61xTttxd6C",
-    "name": "Ac. Pantene",
-    "weight": "200 ml",
-    "variety": [
-      "Rest."
-    ],
-    "price": "$ 1600",
-    "isNew": false,
-    "image": [
-      "https://static.cotodigital3.com.ar/sitios/fotos/full/00559300/00559376.jpg?3.0.165"
-    ],
-    "active": true,
-    "discount": {
-      "active": false,
-      "type": "cuantity",
-      "disc": [
-        6,
-        5
-      ]
-    }
-  },
-  {
     "id": "x365ZtyyC61xTtt4Yuer",
     "name": "Pant",
     "weight": "200 ml",
@@ -296,7 +252,7 @@
     "variety": [
       "Reparacion","Hidratacion", "Kera-Liso", "Color-Vive", "Oleo-Ext", "Arcilla-Pur", "Long-Liss", "Hidra-Purif", "Matizador"
     ],
-    "price": "$ 1600",
+    "price": "$ 2200",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00255100/00255153.jpg?3.0.169",
@@ -326,7 +282,7 @@
     "variety": [
       "Reparacion","Hidratacion", "Kera-Liso", "Color-Vive", "Oleo-Ext", "Arcilla-Pur", "Long-Liss", "Hidra-Purif", "Matizador"
     ],
-    "price": "$ 1600",
+    "price": "$ 2200",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00253900/00253915.jpg?3.0.169",
@@ -378,7 +334,7 @@
     "variety": [
       "Reconstruccion", "Nutricion", "Regeneracion"
     ],
-    "price": "$ 1600",
+    "price": "$ 2200",
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00560500/00560544.jpg?3.0.169",
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00560500/00560535.jpg?3.0.169",
@@ -401,7 +357,7 @@
     "variety": [
       "Reconstruccion", "Nutricion", "Regeneracion"
     ],
-    "price": "$ 1600",
+    "price": "$ 2200",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00559700/00559744.jpg?3.0.169",
@@ -499,29 +455,7 @@
     ],
     "active": true,
     "discount": {
-      "active": false,
-      "type": "cuantity",
-      "disc": [
-        6,
-        5
-      ]
-    }
-  },
-  {
-    "id": "x6zZ7ZCy3Zx5y6Xx7X7",
-    "name": "Isue Saloon IRR",
-    "weight": "110 ml",
-    "variety": [
-      ""
-    ],
-    "price": "$3000",
-    "isNew": true,
-    "image": [
-      "https://carrefourar.vtexassets.com/arquivos/ids/314143/7793008010562_02.jpg?v=638174183749000000"
-    ],
-    "active": false,
-    "discount": {
-      "active": false,
+      "active": true,
       "type": "cuantity",
       "disc": [
         6,
@@ -580,7 +514,7 @@
     "variety": [
       ""
     ],
-    "price": "$ 2000",
+    "price": "$ 2500",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00004300/00004338.jpg?3.0.168"
