@@ -688,6 +688,7 @@
     "name": "Prot Derm Nño",
     "weight": "200 ml",
     "variety": [
+      ""
     ],
     "price": "$15000",
     "isNew": false,
@@ -728,14 +729,37 @@
   },
   {
     "id": "zdt1cT1xDx4YCd63754654",
-    "name": "Prot Derm 50",
+    "name": "Prot Ae Dar 50",
     "weight": "200 ml",
     "variety": [
+      ""
     ],
     "price": "$15000",
     "isNew": false,
     "image": [
       "https://res.cloudinary.com/dxzj1jotg/image/upload/v1730212288/khi5il5uenvrnu9vwytz.png"
+    ],
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "id": "zdt1cT1xDx4YCd637546532312",
+    "name": "Prot Cr Dar 40",
+    "weight": "200 ml",
+    "variety": [
+      ""
+    ],
+    "price": "$12000",
+    "isNew": false,
+    "image": [
+      "https://res.cloudinary.com/dxzj1jotg/image/upload/v1730212788/j7fq9dj9bh2fxmkawfkh.png"
     ],
     "active": true,
     "discount": {
