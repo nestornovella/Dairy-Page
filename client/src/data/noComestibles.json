@@ -618,18 +618,126 @@
     }
   },
   {
-    "id": "zdt1cT1xDx4YCd634c7",
-    "name": "Off Extra Dur.",
-    "weight": "200 ml",
+    "id": "zdt1cT1xDx4YCd634t9",
+    "name": "Off Family.",
+    "weight": "170 Cc",
     "variety": [
       ""
     ],
     "price": "$4000",
     "isNew": false,
     "image": [
-      "https://http2.mlstatic.com/D_NQ_NP_2X_962598-MLA73734148699_122023-F.webp"
+      "https://ardiaprod.vtexassets.com/arquivos/ids/324070-1200-auto?v=638599564177930000&width=1200&height=auto&aspect=true"
     ],
-    "active": false,
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "id": "zdt1cT1xDx4YCd637542",
+    "name": "Aktiol. Extra",
+    "weight": "143 ml",
+    "variety": [
+      ""
+    ],
+    "price": "$4000",
+    "isNew": false,
+    "image": [
+      "https://carrefourar.vtexassets.com/arquivos/ids/570955-1600-auto?v=638629660039070000&width=1600&height=auto&aspect=true"
+    ],
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "id": "zdt1cT1xDx4YCd6375442",
+    "name": "Prot Nivea 30",
+    "weight": "200 ml",
+    "variety": [
+      ""
+    ],
+    "price": "$8000",
+    "isNew": false,
+    "image": [
+      "https://carrefourar.vtexassets.com/arquivos/ids/552607-1600-auto?v=638611399372970000&width=1600&height=auto&aspect=true"
+    ],
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "id": "zdt1cT1xDx4YCd63754478",
+    "name": "Prot Derm Nño",
+    "weight": "200 ml",
+    "variety": [
+    ],
+    "price": "$15000",
+    "isNew": false,
+    "image": [
+      "https://res.cloudinary.com/dxzj1jotg/image/upload/v1730211983/b2lggfwsorrrxzylnynv.png"
+    ],
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "id": "zdt1cT1xDx4YCd6375442",
+    "name": "Prot Nivea 30",
+    "weight": "200 ml",
+    "variety": [
+      ""
+    ],
+    "price": "$8000",
+    "isNew": false,
+    "image": [
+      "https://carrefourar.vtexassets.com/arquivos/ids/552607-1600-auto?v=638611399372970000&width=1600&height=auto&aspect=true"
+    ],
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "id": "zdt1cT1xDx4YCd63754654",
+    "name": "Prot Derm 50",
+    "weight": "200 ml",
+    "variety": [
+    ],
+    "price": "$15000",
+    "isNew": false,
+    "image": [
+      "https://res.cloudinary.com/dxzj1jotg/image/upload/v1730212288/khi5il5uenvrnu9vwytz.png"
+    ],
+    "active": true,
     "discount": {
       "active": false,
       "type": "cuantity",

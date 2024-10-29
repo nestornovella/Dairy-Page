@@ -5,7 +5,7 @@
     "name":"Cremon",
     "weight":"500 g",
     "variety":["comun"],
-    "price":"$ 3500",
+    "price":"$ 4000",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00013500/00013507.jpg?3.0.168"
@@ -22,7 +22,7 @@
     "name":"Cremon",
     "weight":"500 g",
     "variety":["Doble"],
-    "price":"$ 3500",
+    "price":"$ 4000",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00047700/00047711.jpg?3.0.168"
@@ -39,7 +39,7 @@
     "name":"Cremon ",
     "weight":"500 g",
     "variety":["Light"],
-    "price":"$ 4000",
+    "price":"$ 4500",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00010400/00010410.jpg?3.0.168"
@@ -56,7 +56,7 @@
     "name":"Por Salut",
     "weight":"500 g",
     "variety":["Comun"],
-    "price":"$ 4000",
+    "price":"$ 4500",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012915.jpg?3.0.168"
@@ -73,7 +73,7 @@
     "name":"Por Salut",
     "weight":"500 g",
     "variety":["Light"],
-    "price":"$ 4000",
+    "price":"$ 4500",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012917.jpg?3.0.168"
@@ -90,7 +90,7 @@
     "name":"Por Salut",
     "weight":"500 g",
     "variety":["S-Sal"],
-    "price":"$ 4000",
+    "price":"$ 4500",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012918.jpg?3.0.168"
@@ -124,7 +124,7 @@
     "name":"Muzzarella",
     "weight":"500 g",
     "variety":[""],
-    "price":"$ 4000",
+    "price":"$ 4500",
     "isNew":false,
     "image":[
       "https://www.cusumano.com.ar/wp-content/uploads/2022/05/Muzza-Barraza-500g.jpg"
@@ -141,7 +141,7 @@
     "name":"Sardo La Ser..",
     "weight":"250 g",
     "variety":[""],
-    "price":"$ 3500",
+    "price":"$ 4000",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00013300/00013306.jpg?3.0.168"
