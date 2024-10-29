@@ -662,28 +662,6 @@
     }
   },
   {
-    "id": "zdt1cT1xDx4YCd6375442",
-    "name": "Prot Nivea 30",
-    "weight": "200 ml",
-    "variety": [
-      ""
-    ],
-    "price": "$8000",
-    "isNew": false,
-    "image": [
-      "https://carrefourar.vtexassets.com/arquivos/ids/552607-1600-auto?v=638611399372970000&width=1600&height=auto&aspect=true"
-    ],
-    "active": true,
-    "discount": {
-      "active": false,
-      "type": "cuantity",
-      "disc": [
-        6,
-        5
-      ]
-    }
-  },
-  {
     "id": "zdt1cT1xDx4YCd63754478",
     "name": "Prot Derm Nño",
     "weight": "200 ml",
