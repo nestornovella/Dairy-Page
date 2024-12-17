@@ -54,5 +54,11 @@
         "noComestiblePorcent":20,
         "phoneNumber":"+540111569258214",
         "showPrice":true
+    },{
+        "name":"Joha",
+        "comestiblePorcent":20,
+        "noComestiblePorcent":20,
+        "phoneNumber":"+540111554771827",
+        "showPrice":true
     }
 ]
