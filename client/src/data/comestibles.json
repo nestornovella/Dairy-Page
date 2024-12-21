@@ -107,7 +107,7 @@
     "name":"Mini Fymbo",
     "weight":"500 g",
     "variety":[""],
-    "price":"$ 5000",
+    "price":"$ 6000",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00013500/00013515.jpg?3.0.168"
@@ -203,7 +203,42 @@
       "type":"cuantity",
       "disc":[6, 5]
     }
+  }, 
+  {
+    "id":"D3Tt7tYXDzcyZ6y6YcZ",
+    "name":"Roquefort",
+    "weight":"125 g",
+    "variety":[""],
+    "price":"$ 3000",
+    "isNew":true,
+    "image":[
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00514000/00514044.jpg?3.0.176c"
+    ],
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
   },
+  {
+    "id":"D3Tt7tYXDzcyZ6y6YcZ",
+    "name":"Provoleta LS",
+    "weight":"180 g",
+    "variety":[""],
+    "price":"$ 3500",
+    "isNew":true,
+    "image":[
+      "https://static.cotodigital3.com.ar/sitios/fotos/full/00532400/00532450.jpg?3.0.176c"
+    ],
+    "active":true,
+    "discount":{
+      "active":false,
+      "type":"cuantity",
+      "disc":[6, 5]
+    }
+  },
+  
   {
     "id":"6ycxXx74dc3d5271Tcz",
     "name":"Salamin Fino",
@@ -250,7 +285,7 @@
     ],
     "active":true,
     "discount":{
-      "active":false,
+      "active":true,
       "type":"cuantity",
       "disc":[6, 5]
     }
@@ -267,7 +302,7 @@
     ],
     "active":true,
     "discount":{
-      "active":false,
+      "active":true,
       "type":"cuantity",
       "disc":[6, 5]
     }
