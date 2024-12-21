@@ -60,5 +60,17 @@
         "noComestiblePorcent":20,
         "phoneNumber":"+540111554771827",
         "showPrice":true
+    },{
+        "name":"Sol",
+        "comestiblePorcent":20,
+        "noComestiblePorcent":20,
+        "phoneNumber":"+540111533472184",
+        "showPrice":true
+    },{
+        "name":"Flor",
+        "comestiblePorcent":20,
+        "noComestiblePorcent":20,
+        "phoneNumber":"+540111530170023",
+        "showPrice":true
     }
 ]
