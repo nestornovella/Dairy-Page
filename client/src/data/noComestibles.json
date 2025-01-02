@@ -312,7 +312,7 @@
     "variety": [
       ""
     ],
-    "price": "$ 2400",
+    "price": "$ 3000",
     "isNew": false,
     "image": [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM1-S_FKGUQNCIhMFzAthX9fwswJhkt7iFi_hQCgMC4aBoqi77a_ZMEkyDOvyYqlg46Sw&usqp=CAU"
@@ -382,7 +382,7 @@
       "Azul",
       "Rojo"
     ],
-    "price": "$ 2400",
+    "price": "$ 3000",
     "isNew": false,
     "image": [
       "https://simplicityar.vtexassets.com/arquivos/ids/164705-800-auto?v=638219225948930000&width=800&height=auto&aspect=true",
@@ -406,7 +406,7 @@
       "Bamboo",
       "Colageno"
     ],
-    "price": "$3000",
+    "price": "$3500",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00499500/00499502.jpg?3.0.165",
@@ -423,7 +423,7 @@
     }
   },
   {
-    "id": "1X4117DYD1362C3t22d",
+    "id": "1X4117DYD661362C3t22d",
     "name": "Pantene Volumen",
     "weight": "110 ml",
     "variety": [
@@ -479,35 +479,13 @@
     }
   },
   {
-    "id": "Yd1CtXX354Zz4y7Yx3z",
-    "name": "Isue Saloon IR",
-    "weight": "110 ml",
-    "variety": [
-      ""
-    ],
-    "price": "$3000",
-    "isNew": true,
-    "image": [
-      "https://acdn.mitiendanube.com/stores/001/284/054/products/intense_repair_60ml-1-b966fd1e571a5447a017030221147115-1024-1024.jpg"
-    ],
-    "active": true,
-    "discount": {
-      "active": true,
-      "type": "cuantity",
-      "disc": [
-        6,
-        5
-      ]
-    }
-  },
-  {
     "id": "2ZdCC6T6dYDCzYc4CT7",
     "name": "Crema Nivea",
     "weight": "200 ml",
     "variety": [
       ""
     ],
-    "price": "$ 2500",
+    "price": "$ 3000",
     "isNew": false,
     "image": [
       "https://arcordiezb2c.vteximg.com.br/arquivos/ids/178273/Crema-Nivea-B-Nut-Milk-E-Seca-x-250-Ml-CREMA-NIVEA-B-NUT-MILK-E-SECA-1-15391.jpg?v=638174505648800000"
@@ -529,7 +507,7 @@
     "variety": [
       ""
     ],
-    "price": "$ 3000",
+    "price": "$ 3500",
     "isNew": true,
     "image": [
       "https://http2.mlstatic.com/D_NQ_NP_918252-MLA69155232462_042023-O.webp"
@@ -551,7 +529,7 @@
     "variety": [
       ""
     ],
-    "price": "$ 2500",
+    "price": "$ 3000",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00004300/00004338.jpg?3.0.168"
@@ -633,7 +611,7 @@
     }
   },
   {
-    "id": "3176tz625Tt1dDxxcCy",
+    "id": "3176tz625Tt1dD44xxcCy",
     "name": "Skip R Perfumada",
     "weight": "500 ml",
     "variety": [
@@ -655,7 +633,7 @@
     }
   },
   {
-    "id": "3176tz625Tt1dDxxcCy",
+    "id": "3176tz625Tt1dDxxcCy34",
     "name": "Ariel Concentrado",
     "weight": "500 ml",
     "variety": [
@@ -677,7 +655,7 @@
     }
   },
   {
-    "id": "3176tz625Tt1dDxxcCy",
+    "id": "3176tz625Tt1dDxxcCy33",
     "name": "Confort",
     "weight": "500 ml",
     "variety": [
@@ -703,7 +681,7 @@
     }
   },
   {
-    "id": "3176tz625Tt1dDxxcCy",
+    "id": "3176tz625Tt1dDx33xcCy",
     "name": "Downy ",
     "weight": "500 ml",
     "variety": [
@@ -727,7 +705,7 @@
     }
   },
   {
-    "id": "zdt1cT1xDx4YCd634t9",
+    "id": "zdt1cT1xDx4YCd634t339",
     "name": "Off Family.",
     "weight": "170 Cc",
     "variety": [
