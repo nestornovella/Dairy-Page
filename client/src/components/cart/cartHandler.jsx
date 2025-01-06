@@ -29,7 +29,6 @@ function CartHandler({ pedido, deleteProductCart }) {
             setUpdated(true)
             setTimeout(()=>{
             setUpdated(false)
-           
         },600)
     },[cart])
 

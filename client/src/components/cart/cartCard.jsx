@@ -32,7 +32,6 @@ function CartCard({variety, selected, id, image, name, price, discount }) {
         }
 
         dispatch(updateUnitsTotal({name, cantidad:units, subTotal, selected, totalDisc: disc }))
-       
     },[units])
 
     return (
@@ -44,10 +43,7 @@ function CartCard({variety, selected, id, image, name, price, discount }) {
                 <td><button style={{width:"40px"}} onClick={addUnist} className="btn btn-outline-primary border-2  rounded-5">+</button></td>
                 <td><button  onClick={()=>dispatch(deleteProduct(id+selected))} className="btn btn- rounded-4"><img width={30}src="https://cdn-icons-png.flaticon.com/512/323/323609.png" alt="" /></button></td>
             </tr>
-           
-         
     );
 }
 
 export default CartCard;
-   

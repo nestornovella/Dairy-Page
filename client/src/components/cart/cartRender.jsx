@@ -9,10 +9,6 @@ function CartRender({ deleteProductCart }) {
     const dispatch = useDispatch()
     const cart = useSelector( store => store.cart)
     
-
-   
-
-   
     useEffect(()=>{
         if(cart.length){
             dispatch(setTotal(cart.reduce((acc, curr)=> acc + curr.subTotal, 0)))

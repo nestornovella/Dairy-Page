@@ -8,8 +8,7 @@ function Search({ callback }) {
     const inputValue = useRef(null)
     const seller = useSelector(store => store.seller)
     const sellerSelected = sellerList.filter( sel => sel.name.includes(seller) )
-   
-
+    
     function setValue() {
         callback(inputValue.current.value)
     }
