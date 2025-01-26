@@ -18,9 +18,9 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
         color: 'green',
         message: 'Se agrego al carrito'
     })
-    const seller = useSelector( store => store.seller)
+    const seller = useSelector(store => store.seller)
     const foundedSeller = sellersList.filter(sel => sel.name.includes(seller))
-  
+
     const cart = useSelector(store => store.cart)
 
     const alertCard = useRef(null)
@@ -38,7 +38,7 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
 
         const productFinded = cart.filter(pr => pr.id == prod.id + variety)
         console.log(productFinded)
-        
+
         if (!productFinded.length) {
             dispatch(addToCart({ ...prod, selected: variety, name: `${prod.name} ${prod.variety[variety]}`, id: prod.id + variety }));
             showAlert()
@@ -60,7 +60,7 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
         }, 1700)
     }
 
-    function verifyShowProd(){
+    function verifyShowProd() {
         setAlertShow(true)
         setTimeout(() => {
             setAlertShow(false)
@@ -96,7 +96,7 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
                             <div className="row d-flex justify-content-center p-2">
                                 <div className="col-xl-12 d-flex justify-content-around ">
                                     <div type="button" className="btn btn-primary  ">{weight}</div>
-                                   {foundedSeller[0].showPrice && <div type="button" className="btn btn-secondary ">{price}</div>}
+                                    {foundedSeller[0].showPrice && <div type="button" className="btn btn-secondary ">{price}</div>}
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
                 {alertShow && added && <AlertProduct value={alertValue} />}
             </div>
             <div>
-                { prod.variety.length > 1 && <div className="dropdown selectVarity">
+                {prod.variety.length > 1 && <div className="dropdown selectVarity">
                     <button onClick={handleShow} className="p-1 btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         variedad
                     </button>
@@ -117,12 +117,12 @@ function ProductCard({ prod, price, weight, name, image, isNew }) {
                 </div>}
             </div>
             {
-            prod.discount.active &&
-              <div>
-                <OfertaAnuncio discount={prod.discount}/>
-            </div>  
+                prod.discount.active &&
+                <div>
+                    <OfertaAnuncio discount={prod.discount} />
+                </div>
             }
-            
+
         </div>
     );
 }
