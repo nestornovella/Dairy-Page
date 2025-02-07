@@ -25,7 +25,7 @@
         "comestiblePorcent":20,
         "noComestiblePorcent":20,
         "phoneNumber":"+540111535847412",
-        "showPrice":false
+        "showPrice":true
     },
     {
         "name":"Fiore",
