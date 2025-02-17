@@ -21,17 +21,17 @@
         "showPrice":false
     },
     {
-        "name":"solbohn",
-        "comestiblePorcent":30,
-        "noComestiblePorcent":25,
-        "phoneNumber":"+540111554771870",
-        "showPrice":false
+        "name":"silvina",
+        "comestiblePorcent":20,
+        "noComestiblePorcent":20,
+        "phoneNumber":"+540111535847412",
+        "showPrice":true
     },
     {
-        "name":"analia",
+        "name":"Fiore",
         "comestiblePorcent":30,
         "noComestiblePorcent":25,
-        "phoneNumber":"+540111533521812",
+        "phoneNumber":"+540111523068693",
         "showPrice":true
     },
     {
@@ -61,10 +61,10 @@
         "phoneNumber":"+540111554771827",
         "showPrice":true
     },{
-        "name":"Sol",
+        "name":"Rodrigo",
         "comestiblePorcent":20,
         "noComestiblePorcent":20,
-        "phoneNumber":"+540111533472184",
+        "phoneNumber":"+540111539578985",
         "showPrice":true
     },{
         "name":"Flor",
