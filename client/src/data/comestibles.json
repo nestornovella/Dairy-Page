@@ -1,310 +1,244 @@
-
 [
   {
-    "id":"62XTy4142cC64dT6z17",
-    "name":"Cremon",
-    "weight":"500 g",
-    "variety":["comun"],
-    "price":"$ 4000",
-    "isNew":false,
-    "image":[
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "Cremon",
+    "weight": "500 g",
+    "variety": [
+      "comun"
+    ],
+    "price": "$ 4000",
+    "isNew": false,
+    "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00013500/00013507.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
-    "id":"7xtc7Td2Yyyd7zZc1yz",
-    "name":"Cremon",
-    "weight":"500 g",
-    "variety":["Doble"],
-    "price":"$ 4000",
-    "isNew":false,
-    "image":[
+    "id": "b2c3d4e5-f6a7-8901-bcde-1234567890ab",
+    "name": "Cremon",
+    "weight": "500 g",
+    "variety": [
+      "Doble"
+    ],
+    "price": "$ 4000",
+    "isNew": false,
+    "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00047700/00047711.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
-    "id":"CcCDyTZT4231cD1X5YT",
-    "name":"Cremon ",
-    "weight":"500 g",
-    "variety":["Light"],
-    "price":"$ 4500",
-    "isNew":false,
-    "image":[
+    "id": "c3d4e5f6-a789-0123-cdef-234567890abc",
+    "name": "Cremon",
+    "weight": "500 g",
+    "variety": [
+      "Light"
+    ],
+    "price": "$ 4500",
+    "isNew": false,
+    "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00010400/00010410.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
-    "id":"x6353Cz67zyy3CT46Xc",
-    "name":"Por Salut",
-    "weight":"500 g",
-    "variety":["Comun"],
-    "price":"$ 4500",
-    "isNew":false,
-    "image":[
+    "id": "d4e5f6a7-b890-1234-cdef-34567890abcd",
+    "name": "Por Salut",
+    "weight": "500 g",
+    "variety": [
+      "Comun"
+    ],
+    "price": "$ 4500",
+    "isNew": false,
+    "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012915.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
-    "id":"Yd3zCcDcx45ZC5dTzd1",
-    "name":"Por Salut",
-    "weight":"500 g",
-    "variety":["Light"],
-    "price":"$ 4500",
-    "isNew":false,
-    "image":[
-      "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012917.jpg?3.0.168"
+    "id": "e5f6a7b8-c901-2345-def0-4567890abcde",
+    "name": "Muzzarella",
+    "weight": "500 g",
+    "variety": [
+      ""
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
-    }
-  },
-  {
-    "id":"3t5T7dTtX1xYXZD3zd1",
-    "name":"Por Salut",
-    "weight":"500 g",
-    "variety":["S-Sal"],
-    "price":"$ 4500",
-    "isNew":false,
-    "image":[
-      "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012918.jpg?3.0.168"
-    ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
-    }
-  },
-  {
-    "id":"5dx3Xyt47576X74DYCc",
-    "name":"Mini Fymbo",
-    "weight":"500 g",
-    "variety":[""],
-    "price":"$ 6000",
-    "isNew":false,
-    "image":[
-      "https://static.cotodigital3.com.ar/sitios/fotos/full/00013500/00013515.jpg?3.0.168"
-    ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
-    }
-  },
-  {
-    "id":"zx2CdXt25c6t4txYTDy",
-    "name":"Muzzarella",
-    "weight":"500 g",
-    "variety":[""],
-    "price":"$ 4500",
-    "isNew":false,
-    "image":[
+    "price": "$ 4500",
+    "isNew": false,
+    "image": [
       "https://www.cusumano.com.ar/wp-content/uploads/2022/05/Muzza-Barraza-500g.jpg"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
-    "id":"1C71y5cDC13C1D2Cd4Y",
-    "name":"Sardo La Ser..",
-    "weight":"250 g",
-    "variety":[""],
-    "price":"$ 4000",
-    "isNew":false,
-    "image":[
-      "https://static.cotodigital3.com.ar/sitios/fotos/full/00013300/00013306.jpg?3.0.168"
+    "id": "f6a7b8c9-d012-3456-ef01-567890abcdef",
+    "name": "Fetas",
+    "weight": "150 g",
+    "variety": [
+      "Chedar"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
-    }
-  },
-  {
-    "id":"xz5XD64x665c5t36yyC",
-    "name":"Fetas",
-    "weight":"150 g",
-    "variety":["Dambo"],
-    "price":"$ 2500",
-    "isNew":false,
-    "image":[
-      "https://static.cotodigital3.com.ar/sitios/fotos/full/00493100/00493121.jpg?3.0.168"
-    ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
-    }
-  },
-  {
-    "id":"3yc6Z7X51Y4D1Dy7Dtz",
-    "name":"Fetas",
-    "weight":"150 g",
-    "variety":["Chedar"],
-    "price":"$ 2500",
-    "isNew":false,
-    "image":[
+    "price": "$ 2500",
+    "isNew": false,
+    "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00493100/00493133.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
-    "id":"D3Tt7tYXDzcyZ6y6YcZ",
-    "name":"Jamon Fetas",
-    "weight":"200 g",
-    "variety":[""],
-    "price":"$ 2500",
-    "isNew":false,
-    "image":[
-      "https://acdn.mitiendanube.com/stores/242/196/products/pldn_imageneshero-feteadosorig-jamoncocido1-8ae21c65df64c241aa16475528655412-640-0.jpg"
+    "id": "a7b8c9d0-e123-4567-f012-67890abcdef1",
+    "name": "Provoleta LS",
+    "weight": "180 g",
+    "variety": [
+      ""
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
-    }
-  }, 
-  {
-    "id":"D3Tt7tYXDzcyZ6y6YcZ",
-    "name":"Roquefort",
-    "weight":"125 g",
-    "variety":[""],
-    "price":"$ 3000",
-    "isNew":true,
-    "image":[
-      "https://static.cotodigital3.com.ar/sitios/fotos/full/00514000/00514044.jpg?3.0.176c"
-    ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
-    }
-  },
-  {
-    "id":"D3Tt7tYXDzcyZ6y6YcZ",
-    "name":"Provoleta LS",
-    "weight":"180 g",
-    "variety":[""],
-    "price":"$ 3500",
-    "isNew":true,
-    "image":[
+    "price": "$ 3500",
+    "isNew": true,
+    "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00532400/00532450.jpg?3.0.176c"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
-  
   {
-    "id":"6ycxXx74dc3d5271Tcz",
-    "name":"Salamin Fino",
-    "weight":"150 g",
-    "variety":[""],
-    "price":"$ 3000",
-    "isNew":false,
-    "image":[
+    "id": "b8c9d0e1-f234-5678-a123-7890abcdef12",
+    "name": "Salamin Fino",
+    "weight": "150 g",
+    "variety": [
+      ""
+    ],
+    "price": "$ 3000",
+    "isNew": false,
+    "image": [
       "https://jumboargentina.vtexassets.com/arquivos/ids/791551-800-600?v=638288445667230000&width=800&height=600&aspect=true"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
-    "id":"yYy77D2c5Y65d3X5ddZ",
-    "name":"Salamin Grueso",
-    "weight":"150 g",
-    "variety":[""],
-    "price":"$ 3000",
-    "isNew":false,
-    "image":[
-      "https://jumboargentina.vtexassets.com/arquivos/ids/791552-800-600?v=638288445670500000&width=800&height=600&aspect=true"
+    "id": "c9d0e1f2-a345-6789-b123-890abcdef123",
+    "name": "Salamin Grueso",
+    "weight": "150 g",
+    "variety": [
+      ""
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "price": "$ 3000",
+    "isNew": false,
+    "image": [
+      "https://jumboargentina.vtexassets.com/arquivos/ids/791552-800-600?v=638288445667230000&width=800&height=600&aspect=true"
+    ],
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
-    "id":"CdX7t35C51XxCtYZD5y",
-    "name":"Atun Natural",
-    "weight":"170 g",
-    "price":"$ 2500",
-    "isNew":false,
-    "variety":[""],
-    "image":[
+    "id": "b3e1d8a0-9c3d-4e24-93b1-99e3b2e8df1e",
+    "name": "Atun Natural",
+    "weight": "170 g",
+    "price": "$ 2500",
+    "isNew": false,
+    "variety": [
+      ""
+    ],
+    "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00535400/00535413.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":true,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": true,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
-    "id":"TdZc331XytdXDt223X3",
-    "name":"Atun  Aceite",
-    "weight":"170 g",
-    "variety":[""],
-    "price":"$ 2500",
-    "isNew":false,
-    "image":[
+    "id": "7a5f9c21-c0e4-41b2-b3f5-73a7c2d8f1c9",
+    "name": "Atun Aceite",
+    "weight": "170 g",
+    "variety": [
+      ""
+    ],
+    "price": "$ 2500",
+    "isNew": false,
+    "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00535400/00535414.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":true,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": true,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   }
 ]
