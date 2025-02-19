@@ -1,4 +1,3 @@
-
 [
   {
     "id":"1",
@@ -10,11 +9,14 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00013500/00013507.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
@@ -27,11 +29,14 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00047700/00047711.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
@@ -44,11 +49,14 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00010400/00010410.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
@@ -61,14 +69,18 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012915.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
+
     "id":"5",
     "name":"Por Salut",
     "weight":"500 g",
@@ -127,13 +139,17 @@
     "price":"$ 4500",
     "isNew":false,
     "image":[
+
       "https://www.cusumano.com.ar/wp-content/uploads/2022/05/Muzza-Barraza-500g.jpg"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
@@ -180,14 +196,18 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00493100/00493133.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
+
     "id":"11",
     "name":"Jamon Fetas",
     "weight":"200 g",
@@ -231,14 +251,16 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00532400/00532450.jpg?3.0.176c"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
-  
   {
     "id":"14",
     "name":"Salamin Fino",
@@ -249,28 +271,36 @@
     "image":[
       "https://jumboargentina.vtexassets.com/arquivos/ids/791551-800-600?v=638288445667230000&width=800&height=600&aspect=true"
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
-    "id":"yYy77D2c5Y65d3X5ddZ",
-    "name":"Salamin Grueso",
-    "weight":"150 g",
-    "variety":[""],
-    "price":"$ 3000",
-    "isNew":false,
-    "image":[
-      "https://jumboargentina.vtexassets.com/arquivos/ids/791552-800-600?v=638288445670500000&width=800&height=600&aspect=true"
+    "id": "c9d0e1f2-a345-6789-b123-890abcdef123",
+    "name": "Salamin Grueso",
+    "weight": "150 g",
+    "variety": [
+      ""
     ],
-    "active":true,
-    "discount":{
-      "active":false,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "price": "$ 3000",
+    "isNew": false,
+    "image": [
+      "https://jumboargentina.vtexassets.com/arquivos/ids/791552-800-600?v=638288445667230000&width=800&height=600&aspect=true"
+    ],
+    "active": true,
+    "discount": {
+      "active": false,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
@@ -283,28 +313,36 @@
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00535400/00535413.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":true,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": true,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   },
   {
-    "id":"TdZc331XytdXDt223X3",
-    "name":"Atun  Aceite",
-    "weight":"170 g",
-    "variety":[""],
-    "price":"$ 2500",
-    "isNew":false,
-    "image":[
+    "id": "7a5f9c21-c0e4-41b2-b3f5-73a7c2d8f1c9",
+    "name": "Atun Aceite",
+    "weight": "170 g",
+    "variety": [
+      ""
+    ],
+    "price": "$ 2500",
+    "isNew": false,
+    "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00535400/00535414.jpg?3.0.168"
     ],
-    "active":true,
-    "discount":{
-      "active":true,
-      "type":"cuantity",
-      "disc":[6, 5]
+    "active": true,
+    "discount": {
+      "active": true,
+      "type": "cuantity",
+      "disc": [
+        6,
+        5
+      ]
     }
   }
 ]

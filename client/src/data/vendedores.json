@@ -72,5 +72,12 @@
         "noComestiblePorcent":20,
         "phoneNumber":"+540111530170023",
         "showPrice":true
+    },
+    {
+        "name":"Dany",
+        "comestiblePorcent":20,
+        "noComestiblePorcent":20,
+        "phoneNumber":"+540111567922069",
+        "showPrice":true
     }
 ]
