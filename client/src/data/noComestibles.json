@@ -11,7 +11,7 @@
       "Pepino",
       "Invisible"
     ],
-    "price": "$ 2000",
+    "price": "$ 2500",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00559700/00559738.jpg?3.0.165",
@@ -40,7 +40,7 @@
       "Verde",
       "Ivisible"
     ],
-    "price": "$ 2000",
+    "price": "$ 2500",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00532800/00532881_g01.jpg",
@@ -69,7 +69,7 @@
       "Cotton",
       "Futbol"
     ],
-    "price": "$ 2000",
+    "price": "$ 2500",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00572000/00572057.jpg?3.0.165",
@@ -100,7 +100,7 @@
       "Invis.",
       "Ant-Bac"
     ],
-    "price": "$ 2000",
+    "price": "$ 2500",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00572000/00572070.jpg?3.0.165",
@@ -170,7 +170,7 @@
     "variety": [
       ""
     ],
-    "price": "$2000",
+    "price": "$2500",
     "isNew": true,
     "image": [
       "https://www.siemprefarmacias.com.ar/topstore/contenido/productos/original/1646844611-5143.jpeg"
@@ -252,7 +252,7 @@
     "variety": [
       "Reparacion","Hidratacion", "Kera-Liso", "Color-Vive", "Oleo-Ext", "Arcilla-Pur", "Long-Liss", "Hidra-Purif", "Matizador"
     ],
-    "price": "$ 2200",
+    "price": "$ 2500",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00255100/00255153.jpg?3.0.169",
@@ -282,7 +282,7 @@
     "variety": [
       "Reparacion","Hidratacion", "Kera-Liso", "Color-Vive", "Oleo-Ext", "Arcilla-Pur", "Long-Liss", "Hidra-Purif", "Matizador"
     ],
-    "price": "$ 2200",
+    "price": "$ 2500",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00253900/00253915.jpg?3.0.169",
@@ -334,7 +334,7 @@
     "variety": [
       "Reconstruccion", "Nutricion", "Regeneracion"
     ],
-    "price": "$ 2200",
+    "price": "$ 2500",
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00560500/00560544.jpg?3.0.169",
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00560500/00560535.jpg?3.0.169",
@@ -357,7 +357,7 @@
     "variety": [
       "Reconstruccion", "Nutricion", "Regeneracion"
     ],
-    "price": "$ 2200",
+    "price": "$ 2500",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00559700/00559744.jpg?3.0.169",
@@ -382,7 +382,7 @@
       "Azul",
       "Rojo"
     ],
-    "price": "$ 3000",
+    "price": "$ 3500",
     "isNew": false,
     "image": [
       "https://simplicityar.vtexassets.com/arquivos/ids/164705-800-auto?v=638219225948930000&width=800&height=auto&aspect=true",
@@ -422,25 +422,7 @@
       ]
     }
   },
-  {
-    "id": "b8c9d0e1-6f7a-8b9c-4d5e-6f7a8b9c4d5e",
-    "name": "Pantene Volumen",
-    "weight": "110 ml",
-    "variety": [
-      ""
-    ],
-    "price": "$7000",
-    "isNew": true,
-    "image": [
-      "https://static.cotodigital3.com.ar/sitios/fotos/full/00559700/00559754.jpg?3.0.168"
-    ],
-    "active": true,
-    "discount": {
-      "active": true,
-      "type": "porcent",
-      "disc": 30
-    }
-  },
+ 
   {
     "id": "c9d0e1f2-7a8b-9c4d-5e6f-7a8b9c4d5e6f",
     "name": "Elvive Serum",
