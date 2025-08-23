@@ -5,7 +5,7 @@ function useGetData() {
     const [data, setData] = useState([]);
 
     useEffect(()=>{
-        setData(JsonData)
+        setData(JsonData) 
     }, [])
 
     return data;
