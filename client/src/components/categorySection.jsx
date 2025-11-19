@@ -15,6 +15,7 @@ function CategorySection({ current, newProducts, lacteos, perfumeria }) {
             </div>
         </div>
     );
-}
+} 
 
-export default CategorySection;
+
+export default CategorySection; 
