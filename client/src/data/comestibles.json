@@ -4,7 +4,7 @@
     "name":"Cremon",
     "weight":"500 g",
     "variety":["comun"],
-    "price":"$ 5000",
+    "price":"$ 6000",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00013500/00013507.jpg?3.0.168"
@@ -24,7 +24,7 @@
     "name":"Cremon",
     "weight":"500 g",
     "variety":["Doble"],
-    "price":"$ 5000",
+    "price":"$ 6000",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00047700/00047711.jpg?3.0.168"
@@ -44,7 +44,7 @@
     "name":"Cremon ",
     "weight":"500 g",
     "variety":["Light"],
-    "price":"$ 5000",
+    "price":"$ 6000",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00010400/00010410.jpg?3.0.168"
@@ -64,7 +64,7 @@
     "name":"Por Salut",
     "weight":"500 g",
     "variety":["Comun"],
-    "price":"$ 5000",
+    "price":"$ 6000",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012915.jpg?3.0.168"
@@ -85,7 +85,7 @@
     "name":"Por Salut",
     "weight":"500 g",
     "variety":["Light"],
-    "price":"$ 5000",
+    "price":"$ 6000",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012917.jpg?3.0.168"
@@ -102,7 +102,7 @@
     "name":"Por Salut",
     "weight":"500 g",
     "variety":["S-Sal"],
-    "price":"$ 5000",
+    "price":"$ 6000",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00012900/00012918.jpg?3.0.168"
@@ -119,7 +119,7 @@
     "name":"Mini Fymbo",
     "weight":"500 g",
     "variety":[""],
-    "price":"$ 7000",
+    "price":"$ 8000",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00013500/00013515.jpg?3.0.168"
@@ -136,7 +136,7 @@
     "name":"Muzzarella",
     "weight":"500 g",
     "variety":[""],
-    "price":"$ 5000",
+    "price":"$ 6000",
     "isNew":false,
     "image":[
 
@@ -174,7 +174,7 @@
     "name":"Fetas",
     "weight":"150 g",
     "variety":["Dambo"],
-    "price":"$ 3000",
+    "price":"$ 3500",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00493100/00493121.jpg?3.0.168"
@@ -191,7 +191,7 @@
     "name":"Fetas",
     "weight":"150 g",
     "variety":["Chedar"],
-    "price":"$ 3000",
+    "price":"$ 3500",
     "isNew":false,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00493100/00493133.jpg?3.0.168"
@@ -212,7 +212,7 @@
     "name":"Jamon Fetas",
     "weight":"200 g",
     "variety":[""],
-    "price":"$ 3000",
+    "price":"$ 3500",
     "isNew":false,
     "image":[
       "https://acdn.mitiendanube.com/stores/242/196/products/pldn_imageneshero-feteadosorig-jamoncocido1-8ae21c65df64c241aa16475528655412-640-0.jpg"
@@ -229,7 +229,7 @@
     "name":"Roquefort",
     "weight":"125 g",
     "variety":[""],
-    "price":"$ 3000",
+    "price":"$ 3500",
     "isNew":true,
     "image":[
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00514000/00514044.jpg?3.0.176c"
@@ -307,7 +307,7 @@
     "id":"15",
     "name":"Atun Natural",
     "weight":"170 g",
-    "price":"$ 3500",
+    "price":"$ 4000",
     "isNew":false,
     "variety":[""],
     "image":[
@@ -330,7 +330,7 @@
     "variety": [
       ""
     ],
-    "price": "$ 3500",
+    "price": "$ 4000",
     "isNew": false,
     "image": [
       "https://static.cotodigital3.com.ar/sitios/fotos/full/00535400/00535414.jpg?3.0.168"
